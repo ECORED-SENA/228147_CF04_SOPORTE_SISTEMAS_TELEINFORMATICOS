@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1144.127" height="388.174" viewBox="0 0 1144.127 388.174">
+  <g id="Grupo_1043419" data-name="Grupo 1043419" transform="translate(-484.745 -79.803)">
+    <g id="Grupo_1043418" data-name="Grupo 1043418" transform="translate(661 467.94)">
+      <g id="Grupo_1043417" data-name="Grupo 1043417" transform="translate(-240.125 -372.197)">
+        <rect id="Rectángulo_366067" data-name="Rectángulo 366067" width="3.114" height="219.613" transform="translate(100.729 22.601)" fill="#4adbd1"/>
+        <path id="Trazado_779310" data-name="Trazado 779310" d="M42.613,17.027a7.049,7.049,0,1,1,0-9.969,7.049,7.049,0,0,1,0,9.969" transform="translate(64.657 10.557)" fill="#4adbd1"/>
+        <path id="Trazado_779311" data-name="Trazado 779311" d="M94.728,101.178a36.861,36.861,0,1,0-36.859,36.859,36.86,36.86,0,0,0,36.859-36.859" transform="translate(44.417 135.997)" fill="#fffef2"/>
+        <path id="Trazado_779312" data-name="Trazado 779312" d="M58.924,140.655a38.418,38.418,0,1,1,38.416-38.419,38.461,38.461,0,0,1-38.416,38.419m0-73.721a35.3,35.3,0,1,0,35.3,35.3,35.34,35.34,0,0,0-35.3-35.3" transform="translate(43.362 134.939)" fill="#4adbd1"/>
+        <path id="Trazado_779313" data-name="Trazado 779313" d="M57.828,85.689V67.809H37.152v17.88H25.915l21.577,37.152L69.065,85.689Z" transform="translate(54.795 143.377)" fill="#4adbd1"/>
+      </g>
+    </g>
+    <path id="Trazado_799199" data-name="Trazado 799199" d="M374.125,387.517V364.436H454.3c88.48,0,165.5-62.92,180.471-150.124C654.441,99.751,566.309,0,455.314,0H355.3c-17.93,0-34.2,11.346-39.556,28.456-9.05,28.914,12.3,55.471,39.855,55.471H455.18c43.92,0,83.367,28.8,94.784,71.208,17.708,65.779-31.643,125.374-94.65,125.374h-81.19V257.425c0-.6-1.264-.884-1.956-.442L269.8,322.469l102.371,65.49c.691.442,1.956.156,1.956-.442" transform="translate(991.339 79.803)" fill="#4adbd1"/>
+    <path id="Trazado_799200" data-name="Trazado 799200" d="M58.521,0V323.023H901.493L1048.72,203.253,901.493,0Z" transform="translate(541.612 79.803)" fill="#4adbd1"/>
+  </g>
+</svg>

@@ -1,32 +1,691 @@
 .banner-principal-decorativo
   &-1
-    animation: float1 3.5s ease-in-out infinite alternate
+    animation: float2 3.8s ease-in-out infinite alternate
     position: absolute
-    top: 20%
-    right: 10%
+    top: 10%
+    right: 70%
+    width: 90px
   &-2
-    animation: float1 2.8s ease-in-out infinite alternate
+    animation: float1 3s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 40%
+    right: 9%
+  &-3
+    animation: float1 3s ease-in-out infinite alternate
+    position: absolute
+    top: 60%
+    right: 70%
 
 @keyframes float1
   0%
-    transform: translateY(20px)
+    transform: translateY(25px)
+
   100%
     transform: translateY(0px)
+
+@keyframes float2
+  0%
+    transform: translateX(20px)
+
+  100%
+    transform: translateX(0px)
+
+.banner-principal__img
+  width: 400px !important
+
+.bloque-texto-a.color-primario
+    background-color: #F6F6F6
+
+.banner-interno__fondo
+  background-image: url("../assets/curso/portada/img1.png") !important
+
+.img1-intro
+  position: relative
+  margin-bottom: -15px
+  @media (max-width: 991px)
+    margin-bottom: 0px
+
+
+// ESTILOS TEMA 1 --------------------------------- 
+
+.tarjeta-gris-degrade
+  background: linear-gradient(0deg,#DEDEDE,#FFFFFF,#FFFFFF,#DEDEDE)
+  position: relative
+  margin-top: -10%
+
+.bg-fondo1
+  position: relative
+  .row, figure, p, h3,
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    margin-left: -48px
+    margin-top: 90px
+    width: calc( 100% + 96px )
+    height: 100%       
+    background-image: url('../assets/curso/temas/tema1/bg1.png')
+    background-size: 100% auto  
+    background-repeat: no-repeat
+    background-position: center top 
+    @media (max-width: 991px)
+      background-repeat: no-repeat
+
+
+.bg-linea-tiempo
+  background-color: #FFFFFF
+  border-radius: 15px
+
+.linea-tiempo-c__header__btn, .linea-tiempo-c__header__btn--left, .linea-tiempo-c__header__btn--right, .pasos-b__header__btn--left, .pasos-b__header__btn--right
+  background-color: $color-acento-botones
+
+.tarjeta-azul1
+  background-color: #12263F
+  z-index: 1
+  position: relative
+
+.img10-tm1
+  position: relative
+  max-width: 150%
+  width: 120%
+  z-index: 0
+  @media (max-width: 991px)
+    width: 100%
+
+.tarjeta-blanca1
+  background-color: #F8F8F8
+  border-bottom-left-radius: 60px
+  border-top-right-radius: 60px
+  z-index: 1
+  position: relative
+
+.img12-tm1
+  position: relative
+  max-width: 200%
+  width: 140%
+  right: 40%
+  z-index: 0
+  @media (max-width: 991px)
+    width: 100%
+    right: 0%
+
+.bg-fondo3
+  position: relative
+  .row, figure, p, h3,
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    margin-left: -48px
+    margin-top: 20px
+    width: calc( 100% + 96px )
+    height: 100%       
+    background-image: url('../assets/curso/temas/tema1/bg3.png')
+    background-size: 100% auto  
+    background-position: center top 
+
+.tarjeta-titulo
+  background-color: #4ADBD1
+  border: 4px solid #ffffff
+  border-radius: 10px
+
+.tarjeta.color-adicional-1
+  background-color: #12263F
+  width: 450px
+  position: relative
+  right: 50%
+  @media (max-width: 991px)
+    right: auto
+    width: auto
+
+.tarjeta-titulo2
+  background-color: #12263F
+  border: 4px solid #ffffff
+  border-radius: 10px
+
+.bg-fondo4
+  position: relative
+  .row, figure, p, h3,
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    margin-left: -48px
+    margin-top: 90px
+    width: calc( 100% + 96px )
+    height: 100%       
+    background-image: url('../assets/curso/temas/tema1/bg4.png')
+    background-size: 100% auto  
+    background-repeat: no-repeat
+    background-position: center top
+    @media (max-width: 991px)
+      background-repeat: no-repeat
+
+.slyder-a__btn--sigt, .slyder-a__btn--atrs
+  background-color: $color-acento-botones
+.slyder-a__bullets__item
+  background-color: #FFDBA6
+.slyder-a__bullets__item--active
+  background-color: $color-acento-botones
+
+.bg-titulo1
+  background-image: url("../assets/curso/temas/tema1/titulo1.svg")
+  background-repeat: no-repeat
+  background-size: 30% 90%
+  @media (max-width: 500px)
+    background-size: 100% 100%
+
+.bg-boton-modal
+  background-image: url("../assets/curso/temas/tema1/bg-boton.png")
+  background-size: 100% 100%
+
+.posicion-boton
+  position: relative
+  margin-top: -9%
+  left: 67%
+  @media (max-width: 500px)
+    margin-top: 0%
+    left: 60%
+
+// ESTILOS TEMA 2 --------------------------------- 
+
+.tarjeta-gris1
+  background-color: #E2E3E5
+  border-top-left-radius: 20px
+  border-top-right-radius: 20px
+  position: relative
+  left: 10%
+  @media (max-width: 991px)
+    left: 0%
+
+.tarjeta-gris2
+  background-color: #D0D1D5
+  position: relative
+  left: 10%
+  @media (max-width: 991px)
+    left: 0%
+
+.tarjeta-gris3
+  background-color: #E2E3E5
+  border-bottom-left-radius: 20px
+  border-bottom-right-radius: 20px
+  position: relative
+  left: 10%
+  @media (max-width: 991px)
+    left: 0%
+
+.img2-tm2
+  position: relative
+  max-width: 200%
+  width: 120%
+  right: 30%
+  @media (max-width: 991px)
+    width: 100%
+    right: 0%
+
+.img3-4-tm2
+  position: relative
+  right: 150%
+  max-width: 200%
+  width: 180%
+  @media (max-width: 991px)
+    width: 100%
+    right: 0%
+
+.bg-5
+  background-image: url("../assets/curso/temas/tema2/bg5.png")
+  background-size: 100% 100%
+
+.bg-6
+  background-image: url("../assets/curso/temas/tema2/bg6.png")
+  background-size: 100% 100%
+  height: 120px !important
+  position: relative
+  left: 5%
+  @media (max-width: 991px)
+    height: auto !important
+    position: relative
+    right: 0%
+
+.bg-7
+  background-image: url("../assets/curso/temas/tema2/bg7.png")
+  background-size: 100% 120%
+  height: 120px !important
+  position: relative
+  right: 5%
+  @media (max-width: 991px)
+    height: auto!important
+    position: relative
+    right: 0%
+
+.tarjeta-azul2
+  background-color: #12263F
+
+.cajon.color-primario
+    background-color: #F2F6FE
+
+.bloque-texto-g1__img 
+  width: 50%
+  position: absolute
+  top: 0
+  left: 50%
+  bottom: 0
+  background-position: center
+  background-size: cover
+  @media (max-width: 991px)
+    height: 250px
+    width: 100%
+    left: 0%
+
+.bloque-texto-g1__texto 
+  position: relative
+  width: 60%
+  background-color: rgba(255, 255, 255, 0.95)
+  right: 40%
+  @media (max-width: 991px)
+    width: 100%
+    right: 0%
+
+// ESTILOS TEMA 3 ---------------------------------
+
+.tarjeta-gris
+  background-color: #F8F8F8
+  border-top-right-radius: 50px
+  border-bottom-left-radius: 50px
+  position: relative
+  right: 10%
+  @media (max-width: 500px)
+    right: 0%
+
+.bg-titulo2
+  background-image: url("../assets/curso/temas/tema3/bg-titulo2.svg")
+  background-repeat: no-repeat
+  background-size: 23% 80%
+  @media (min-width: 700px) and (max-width: 991px)
+    background-size: 50% 100%
+  @media (max-width: 600px)
+    background-size: 80% 100%
+
+.bloque-texto-g.color-adicional-1
+  background-color: #12263F
+
+.img-numeros
+  position: relative
+  max-width: 200%
+  width: 110%
+  margin-bottom: -18%
+  margin-top: -18%
+  @media (max-width: 991px)
+    width: 100%
+    margin-bottom: 0%
+    margin-top: 0%
+
+.img-numeros2
+  position: relative
+  margin-top: -15px
+  margin-bottom: -15px
+  @media (max-width: 991px)
+    margin-top: 0px
+    margin-bottom: 0px
+
+.bg-fondo5
+  position: relative
+  .row, figure, p, h3,
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    margin-left: -48px
+    margin-top: 20px
+    width: calc( 100% + 96px )
+    height: 100%       
+    background-image: url('../assets/curso/temas/tema6/bg2.png')
+    margin-top: -20px
+    width: calc( 100% + 96px )
+    height: 100%       
+    background-image: url('../assets/curso/temas/tema1/bg3.png')
+    background-size: 100% auto  
+    background-repeat: no-repeat
+    background-position: center top 
+    @media (max-width: 991px)
+      background-repeat: no-repeat
+      background-repeat: no-repeat
+
+.tarjeta--azul2
+  background-color: #ffffff
+  background-image: url("../assets/curso/temas/tema3/bg8.png") !important
+  background-repeat: no-repeat
+
+.fa-ul2
+  margin-left: 0 !important
+  li
+    display: flex !important
+    &::before
+      position: relative
+      margin-right: 7px
+      font-size: 1.4rem
+
+    &:before
+      position: relative
+      margin-right: 7PX
+      font-size: 1.4rem
+
+.tabs-a__tab 
+  background-color: #E8E8E8
+
+.tarjeta-titulo3
+  background-color: #5573C6
+  border: 4px solid #ffffff
+  border-radius: 10px
+
+.bg-tarjeta1
+  position: relative
+  .row, figure, p, h3,
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    margin-left: 0px
+    margin-top: -40px
+    width: calc( 95% + 0px )
+    height: 100%       
+    background-image: url('../assets/curso/temas/tema3/img33.svg')
+    background-size: 100% auto  
+    background-repeat: no-repeat
+    background-position: center top
+    @media (min-width: 700px) and (max-width: 991px)
+      background-repeat: no-repeat
+      margin-left: -40px
+      margin-top: -40px
+      width: calc( 120% + 0px)
+      height: 100%
+      background-size: 210% auto
+    @media (max-width: 690px)
+      background-repeat: no-repeat
+      margin-left: -40px
+      margin-top: -40px
+      width: calc( 120% + 0px)
+      height: 100%
+      background-size: 440% auto
+
+.bg-tarjeta2
+  position: relative
+  .row, figure, p, h3,
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    margin-left: 0px
+    margin-top: -40px
+    width: calc( 90% + 0px )
+    height: 100%       
+    background-image: url('../assets/curso/temas/tema3/img34.svg')
+    background-size: 100% auto  
+    background-repeat: no-repeat
+    background-position: center top 
+    @media (min-width: 700px) and (max-width: 991px)
+      background-repeat: no-repeat
+      margin-left: -40px
+      margin-top: -40px
+      width: calc( 120% + 0px)
+      height: 100%
+      background-size: 210% auto
+    @media (max-width: 690px)
+      background-repeat: no-repeat
+      margin-left: -40px
+      margin-top: -40px
+      width: calc( 120% + 0px)
+      height: 100%
+      background-size: 440% auto
+
+// TEMA 4 ------------------------------------------------------
+
+.tarjeta-gris4
+  background-color: #F6F6F6
+
+.img9-tm4
+  position: relative
+  max-width: 200%
+  right: 20%
+  @media (max-width: 991px)
+    width: 100%
+    right: 0%
+
+.tarjeta-avatar-b__img
+  min-width: 15%
+  right: 3%
+
+.tarjeta.color-primario--borde
+  height: 150px
+  @media (max-width: 991px)
+    height: auto
+
+.tarjeta-verde
+  background-color: #4ADBD1
+
+.tarjeta-azul3
+  background-color: #12263F
+  position: relative
+  margin-top: -45%
+  right: 46%
+  @media (max-width: 991px)
+    margin-top: 0%
+    right: 0%
+
+.bg-tarjeta3
+  position: relative
+  .row, figure, p, h3,
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    margin-left: 73px
+    margin-top: -20px
+    width: calc( 87% + 0px )
+    height: 104%       
+    background-image: url('../assets/curso/temas/tema4/bg-9.svg')
+    background-size: 104% auto  
+    background-repeat: no-repeat
+    background-position: center top
+    @media (min-width: 700px) and (max-width: 991px)
+      background-repeat: repeat
+      margin-left: -40px
+      margin-top: -40px
+      width: calc( 120% + 0px)
+      height: 105%
+      background-size: 210% auto
+    @media (max-width: 690px)
+      background-repeat: repeat
+      margin-left: -40px
+      margin-top: -40px
+      width: calc( 120% + 0px)
+      height: 105%
+      background-size: 440% auto
+
+.tarjeta-gris5
+  background-color: #F6F6F6
+  height: 220px
+  @media (min-width: 700px) and (max-width: 991px)
+    height: 250px
+  @media (max-width: 690px)
+    height: auto
+
+.tarjeta-azul4
+  background-color: #12263F
+  height: 200px
+  @media (min-width: 700px) and (max-width: 991px)
+    height: 250px
+  @media (max-width: 690px)
+    height: auto
+
+.tarjeta-amarilla
+  background-color: #F4A338
+
+.bg-tarjeta
+  background-image: url("../assets/curso/temas/tema4/bg-tarjeta.png")
+  background-size: 100% 100%
+
+.tarjeta-blanca2
+  background-color: #FFFFFF
+  height: 300px
+
+//Estilos Tema 6
+
+.lista-ol--separador li, .lista-ul--separador li 
+  border-bottom: dotted 1px #b0c0d2 !important;
+
+.bg1-tema6
+  background-image: url("../assets/curso/temas/tema6/bg1.png")
+  background-repeat: no-repeat
+  background-size: 100% 100%
+
+.bg-fondo_tema6
+.slyder__btn
+  background-color: #d8ecff
+
+.slyder__btn:hover
+  background-color: #4ADBD1
+
+.img-infografica-b.color-acento-botones .img-infografica-b__item__dot:before, .img-infografica-b.color-acento-botones .img-infografica-b__item__dot:after
+    background-color: #12263F !important;
+
+.img-infografica-b.color-acento-botones .img-infografica-b__item__numero i 
+    color: #ffffff !important;
+
+.infografica-b__item__tooltip 
+    
+
+.img-infografica-b__item:hover .img-infografica-b__item__tooltip 
+    background-color: #cccccc00 !important;
+
+.img-infografica__item__tooltip, .img-infografica-b__item__tooltip 
+    background-color: #cccccc00 !important;
+
+
+.bg3-tema6
+  background-image: url("../assets/curso/temas/tema6/bg3.png")
+  background-repeat: no-repeat
+  background-size: 100% 100%
+
+.bg4-tema6
+  background-image: url("../assets/curso/temas/tema6/bg4.png")
+  background-repeat: no-repeat
+  background-size: 100% 100%
+
+.bg5-tema6
+  background-image: url("../assets/curso/temas/tema6/bg5.png")
+  background-repeat: no-repeat
+  background-size: 100% 100%
+
+.bg6-tema6
+  background-image: url("../assets/curso/temas/tema6/bg6.png")
+  background-repeat: no-repeat
+  background-size: 100% 100%
+
+.bg7-tema6
+  background-image: url("../assets/curso/temas/tema6/bg7.png")
+  background-repeat: no-repeat
+  background-size: 100% 100%
+
+.bg8-tema6
+  background-color: #F6F6F6;
+  border-radius: 22px;
+
+.bg9-tema6
+  background-image: url("../assets/curso/temas/tema6/bg10.png")
+  background-repeat: no-repeat
+  background-size: 100% 100%
+
+///// Define el Tamaño y color de las tarjetas del carrusel -----------
+.w_t_s
+  height: 415px
+  //background-color: red
+  background-color: #373F51 !important
+
+.fa-chevron-right:before 
+    color: #4ADBD1 !important
+
+.fa-chevron-left:before 
+    color: #4ADBD1 !important
+
+.cajon-tema6
+  background-color: #FFC94A
+  &::before
+    background-color: #5573C6
+
+.cajon-tema7
+  background-color: #CCF5EC
+  &::before
+    background-color: #7FE5CF
+
+.tarjeta-titulo_tema5
+  background-color: #5573C6
+  border: 4px solid #ffffff
+  border-radius: 10px
+
+.bg1-tema5
+  background-image: url("../assets/curso/temas/tema5/bg1.svg")
+  background-repeat: no-repeat
+  background-size: 100% 100%
+   
+.tarjeta-tema5
+  background-color: #DEDEDE !important
+
+///////// Card hover --------------------------------------
+.crd_hover_txt
+  position: relative  
+  padding: 0 !important
+  overflow: hidden !important  
+  &:hover    
+    .crd_hover_txt--body   
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
+      transform: translateY(0)
+
+  .crd_hover_txt--body
+    position: absolute
+    padding: 1.5rem
+    bottom: 0    
+    transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+    transform: translateY(calc( 100% - 3.85rem ))
+    background-color: #4ADBD1
   
-.banner-principal .tarjeta
-  background-position: left 50% !important
+  @media (min-width:1200px) and (max-width:1400px)  
+    .crd_hover_txt--body
+      p
+        font-size: 0.85em
 
-.banner-principal__row .banner-principal__img
-  width: 400px !important  
 
-.titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: white !important
+.bg-flip-2
+  background-color: #F4A338 !important
 
-.banner-interno__titulo__icono i
-  color: $color-primario
+.img-infografica.color-adicional-1 .img-infografica__item__dot:before
+  background-color: #12263F
 
-figcaption
-  font-weight: normal
+.img-infografica.color-adicional-1 .img-infografica__item__dot:after
+  background-color: #12263F
+
+.img-infografica__item__numero
+  color: #ffffff
+
+.bg
+  &-c1
+    background-image: url(../assets/curso/temas/tema1/bg5.png)
+    margin-inline: -3.2rem !important
+    background-size: cover
+  &-c2
+    background-image: url(../assets/curso/temas/tema1/bg5.png)
+    margin-inline: -3.2rem !important
+    background-size: cover
+    margin-bottom: -48px
+    @media screen and ( max-width: $bp-max-sm )
+      margin-bottom: -24px
+  &-c3
+    background-image: url(../assets/curso/temas/tema2/bg8.png)
+    margin-inline: -3.2rem !important
+    background-size: cover
+
+.txt-left 
+  text-align: left
+
+.bloque-texto-g.color-primario
+  background-color: #566368
