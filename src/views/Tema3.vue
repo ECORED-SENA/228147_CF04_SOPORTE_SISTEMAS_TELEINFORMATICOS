@@ -41,14 +41,22 @@
     #t_3_1.titulo-segundo.color-acento-botones(data-aos="fade-right")
        h2 3.1 Características 
     p.mb-5 Para entender un poco mejor el papel del sistema operativo, se exponen algunos ejemplos.
-    .row.bg-titulo2.align-items-center.p-2.mb-4
-      h3.mb-3.mt-2.texto-derecha Virtualización de la CPU
+    .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
+      .col-lg-auto
+        figure
+          img(src="@/assets/curso/temas/tema1/img19.png" style="max-width: 60px").m-auto
+      .col
+        h3 Virtualización de la CPU
     .row.justify-content-center.align-items-center.mb-5(data-aos="flip-down")
       figure(data-aos="fade-right")
         .video
           iframe(width="560" height="315" src="https://www.youtube.com/embed/lGLzCzgrcF8" title="Virtualización CPU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-    .row.bg-titulo2.align-items-center.p-2.mb-4
-      h3.mb-3.mt-2.texto-derecha Comportamiento CPU
+    .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
+      .col-lg-auto
+        figure
+          img(src="@/assets/curso/temas/tema1/img19.png" style="max-width: 60px").m-auto
+      .col
+        h3 Comportamiento CPU
     .row.justify-content-center.align-items-center.mb-4
       .col-9
         .tarjeta.color-primario.p-3.mb-5
@@ -76,21 +84,29 @@
         )
         .bloque-texto-g__texto.p-4(data-aos="flip-down")
           p.mb-0 También se puede notar que la posibilidad de ejecutar varios programas a la vez plantea todo tipo de preguntas nuevas. Por ejemplo, si dos programas quieren ejecutarse en un momento determinado, ¿cuál debería ejecutarse? Esta pregunta se responde con una política del SO; las políticas se utilizan en muchos lugares diferentes dentro de un SO para responder a este tipo de preguntas, y por ello se estudiarán mientras se aprende sobre los mecanismos básicos que implementan los sistemas operativos (como la capacidad de ejecutar múltiples programas a la vez). De ahí el papel del SO como gestor de recursos.
-    .row.bg-titulo2.align-items-center.p-2.mb-4
-      h3.mb-3.mt-2.texto-derecha Virtualización de la memoria
+    .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
+      .col-lg-auto
+        figure
+          img(src="@/assets/curso/temas/tema1/img19.png" style="max-width: 60px").m-auto
+      .col
+        h3 Virtualización de la memoria
     .bg-fondo4          
       .row.justify-content-center.align-items-center.mb-5
         figure(data-aos="fade-right")
           img(src='@/assets/curso/temas/tema3/img6.png', alt='')    
         .col-lg-11
           .tarjeta.tarjeta-gris-degrade.p-3(data-aos="fade-up")
-            p.mb-0 El modelo de memoria física presentada por las máquinas modernas es muy simple. La memoria es sólo una matriz de bytes; para leer la memoria, hay que especificar una dirección para poder acceder a los datos almacenados en ella; para escribir (o actualizar) la memoria, también hay que especificar los datos que se escribirán en la dirección dada. Se accede a la memoria todo el tiempo cuando se ejecuta un programa. Un programa mantiene todas sus estructuras de datos en la memoria, y accede a ellas a través de varias instrucciones, como loads y stores u otras instrucciones explícitas que acceden a la memoria al hacer su trabajo.
+            p.mb-0 El modelo de memoria física presentada por las máquinas modernas es muy simple. La memoria es solo una matriz de bytes; para leer la memoria, hay que especificar una dirección para poder acceder a los datos almacenados en ella; para escribir (o actualizar) la memoria, también hay que especificar los datos que se escribirán en la dirección dada. Se accede a la memoria todo el tiempo cuando se ejecuta un programa. Un programa mantiene todas sus estructuras de datos en la memoria, y accede a ellas a través de varias instrucciones, como loads y stores u otras instrucciones explícitas que acceden a la memoria al hacer su trabajo.
       .row.justify-content-center.align-items-center.mb-5(data-aos="flip-down")
         figure(data-aos="fade-right")
           .video
             iframe(width="560" height="315" src="https://www.youtube.com/embed/Yr6DUp-I_bk" title="Virtualización de la memoria" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-    .row.bg-titulo2.align-items-center.p-2.mb-4
-      h3.mb-3.mt-2.texto-derecha Concurrencia
+    .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
+      .col-lg-auto
+        figure
+          img(src="@/assets/curso/temas/tema1/img19.png" style="max-width: 60px").m-auto
+      .col
+        h3 Concurrencia
     .row.justify-content-center.align-items-center.mb-5
       .col-7.col-lg-4
         figure(data-aos="fade-right")
@@ -98,8 +114,12 @@
       .col-lg-8
         .tarjeta-azul2.p-5(data-aos="fade-left")
           p.mb-0.texto-blanco Otro tema principal es la concurrencia. Se usa este término conceptual para hacer referencia a una serie de problemas que surgen, y deben ser abordados, cuando se trabaja en muchas cosas a la vez (es decir, de forma concurrente) en el mismo programa. Resulta que hacer esto conduce a algunos problemas profundos e interesantes. Por desgracia, los problemas de concurrencia ya no se limitan sólo al propio sistema operativo. De hecho, los modernos programas multihilo presentan los mismos problemas.
-    .row.bg-titulo2.align-items-center.p-2.mb-4
-      h3.mb-3.mt-2.texto-derecha Persistencia
+    .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
+      .col-lg-auto
+        figure
+          img(src="@/assets/curso/temas/tema1/img19.png" style="max-width: 60px").m-auto
+      .col
+        h3 Persistencia
     p.mb-5(data-aos="fade-right") En la memoria del sistema, los datos pueden perderse fácilmente, ya que dispositivos como la DRAM almacenan valores de forma volátil; cuando se va la corriente o el sistema se bloquea, cualquier dato en la memoria se pierde. Por tanto, necesitamos <i>hardware</i> y <i>software</i> para poder almacenar los datos de forma persistente; este almacenamiento es, por tanto, fundamental para cualquier sistema, ya que los usuarios se preocupan mucho por sus datos. El <i>hardware</i> se presenta en forma de algún tipo de dispositivo de entrada/salida o E/S; en los sistemas modernos, un disco duro es un depósito común para la información de larga duración, aunque las unidades de estado sólido (SSD) también se están abriendo paso en este ámbito.
     .row.justify-content-center.align-items-center.mb-5
       figure(data-aos="fade-right")
@@ -165,7 +185,7 @@
           img(src='@/assets/curso/temas/tema3/img17.png', alt='')
       .col-lg-8
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul2")
-          .row(titulo="Código abierto")
+          .row.ms-5(titulo="Código abierto")
             p Las licencias de <i>software</i> de código abierto son un formato de licencia de derechos de autor aceptado para el <i>software</i> diseñado para permitir a los desarrolladores modificar y compartir el código fuente que hay detrás. Dependiendo de las preferencias del desarrollador, el <i>software</i> de código abierto puede ser freeware, shareware o de pago.
             .row.justify-content-center.align-items-center.mb-3              
               .col-lg-9
@@ -174,7 +194,7 @@
                 figure
                   img(src='@/assets/curso/temas/tema3/img18.svg', alt='')
             p <b>Desventaja:</b> las licencias de código abierto no ofrecen garantías ni soporte para solucionar los problemas que puedan surgir. Además, como el <i>software</i> de código abierto suele ser desarrollado y distribuido por múltiples desarrolladores, los problemas a veces se pierden.
-          .row(titulo="Código con licencias")
+          .row.ms-5(titulo="Código con licencias")
             p El licenciamiento, también conocido como licenciamiento propietario, es un formato de licenciamiento de forma libre.
             .row.justify-content-center.align-items-center.mb-3
               .col-8.col-lg-3
@@ -183,7 +203,7 @@
               .col-lg-9
                 p <b>Ventajas:</b> a diferencia del código abierto, las licencias propietarias incluyen soporte, correcciones de errores y parches, además de otro tipo de soporte y soluciones por cortesía del desarrollador. Esto puede ayudar a resolver los problemas cuando hay interrupciones, ya que los largos tiempos de atención pueden costar dinero a su organización, o peor aún, a los clientes.
             p <b>Desventaja:</b> como este tipo de licencia es tan libre, no ofrece ninguna supervisión real. Esto significa que cuando se descarga un título de <i>software</i> bajo una licencia propietaria, es el desarrollador quien establece las reglas sobre lo que se puede y no se puede hacer con él. Además, como este tipo de licencia no está reconocido por la ley, es posible que se le pida que acepte un extenso conjunto de términos y condiciones.
-          .row(titulo="Licencias duales de código abierto")
+          .row.ms-5(titulo="Licencias duales de código abierto")
             p Es un modelo de negocio de código abierto bajo el cual los vendedores ponen su <i>software</i> a disposición tanto a través de licencias de código abierto como bajo un modelo diferente en el que hay una cuota.
             .row.justify-content-center.align-items-center.mb-3
               .col-8.col-lg-3
@@ -358,10 +378,12 @@
         )
         .bloque-texto-g__texto.p-4(data-aos="flip-down")
           p.mb-0 Adicionalmente, el mundo de la seguridad de los sistemas se ha puesto patas arriba por dos nuevos ataques relacionados. El primero se llama <i>Meltdown</i>, y el segundo <i>Spectre</i>. Fueron descubiertos casi al mismo tiempo por cuatro grupos diferentes de investigadores/ingenieros, y han llevado a un profundo cuestionamiento de las protecciones fundamentales ofrecidas por el <i>hardware</i> de los ordenadores y el SO anterior.
-    .row.align-items-center.mb-5
-      .col-lg-4
-        .tarjeta-titulo.p-2
-          h4.mb-0.text-center Ejecución especulativa
+    .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
+      .col-lg-auto
+        figure
+          img(src="@/assets/curso/temas/tema1/img19.png" style="max-width: 60px").m-auto
+      .col
+        h3 Ejecución especulativa
     .row.bg-c1.mb-5
       .col-12
         .p-5

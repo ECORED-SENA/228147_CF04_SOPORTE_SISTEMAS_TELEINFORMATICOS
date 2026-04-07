@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Gestión de <i>hardware</i> y <i>software</i>',
     descripcionCurso:
-      'En este componente se aborda los conceptos de la administración del <i>software</i> y el <i>hardware</i> desde el conocimiento de los sistemas básicos de un computador, el sistema operativo y sus características y, finalmente, cómo se puede plantear una programación de posibles mantenimientos.',
+      'En este componente se abordan los conceptos de la administración del <i>software</i> y el <i>hardware</i> desde el conocimiento de los sistemas básicos de un computador, el sistema operativo y sus características y, finalmente, cómo se puede plantear una programación de posibles mantenimientos.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -228,14 +228,6 @@ export default {
     ],
   },
   complementario: [
-    {
-      tema: 'Equipos de cómputo',
-      referencia:
-        'Davies, G. (2019). <i>Networking Fundamentals: Develop the networking skills required to pass the Microsoft MTA Networking Fundamentals Exam 98-366.</i> Packt Publishing Ltda.',
-      tipo: 'Libro',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_odilo02419408',
-    },
     {
       tema: 'Administración y gestión',
       referencia:

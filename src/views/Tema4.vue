@@ -106,7 +106,7 @@
       .col-lg-8
         p(data-aos="fade-right") En algunas situaciones, en las que los equipos son pesados y no pueden ser transportados al centro de reparación, es imprescindible disponer de unas instalaciones de servicio móviles. Mientras que en algunos casos es suficiente con llevar una caja de herramientas y una buena gama de componentes electrónicos para atender las necesidades de mantenimiento correctivo y preventivo, en otros casos puede ser necesario transportar equipos de prueba como un osciloscopio, fuentes de alimentación, generador de impulsos y multímetro digital, etc. Las furgonetas de mantenimiento móvil especialmente diseñadas pueden estar dotadas de equipos de prueba electrónicos adecuados y de instalaciones de taller mecánico para atender estos requisitos especializados.
         .cajon.color-primario.p-4(data-aos="flip-up")
-          p.mb-0 La política de mantenimiento aplicable a una situación concreta dependerá obviamente de varios factores. Algunos de estos son:
+          p.mb-0 La política de mantenimiento aplicable a una situación concreta dependerá, obviamente, de varios factores. Algunos de estos son:
       .col-10.col-lg-4
         figure
           img(src='@/assets/curso/temas/tema4/img11.png', alt='')
@@ -119,7 +119,7 @@
         img(src='@/assets/curso/temas/tema4/img13.svg', alt='')
       .col-lg-6
         .tarjeta.tarjeta-azul3.p-4(data-aos="flip-down")
-          p.mb-0.texto-blanco Para la localización de averías en los equipos electrónicos, se debe emplear personal cualificado. A diferencia de los equipos mecánicos, en los que a veces basta con aceitar y engrasar para restablecer el funcionamiento del sistema defectuoso, los equipos electrónicos necesitan una comprensión profunda de la teoría de funcionamiento del sistema y el conocimiento de las pruebas de los componentes activos y pasivos antes de poder ser manipulados. También hay que tener en cuenta que cualquier intento de reparación de un equipo electrónico por parte de personas no cualificadas puede acarrear mayores problemas por su mala manipulación y dificultaría el trabajo del técnico cualificado si posteriormente se le remite .
+          p.mb-0.texto-blanco Para la localización de averías en los equipos electrónicos, se debe emplear personal cualificado. A diferencia de los equipos mecánicos, en los que a veces basta con aceitar y engrasar para restablecer el funcionamiento del sistema defectuoso, los equipos electrónicos necesitan una comprensión profunda de la teoría de funcionamiento del sistema y el conocimiento de las pruebas de los componentes activos y pasivos antes de poder ser manipulados. También hay que tener en cuenta que cualquier intento de reparación de un equipo electrónico por parte de personas no cualificadas puede acarrear mayores problemas por su mala manipulación y dificultaría el trabajo del técnico cualificado si posteriormente se le remite.
     separador
     #t_4_2.titulo-segundo.color-acento-botones(data-aos="fade-right")
        h2 4.2 Elementos de protección
@@ -305,32 +305,32 @@
       .col-lg-10
         .tarjeta.bg-tarjeta.p-4.mb-3(data-aos="fade-up")
           .row.justify-content-center.align-items-center
-            .col-2
-              h1.texto-blanco 01
-            .col-10
+            .col-sm-2.ms-5.ms-sm-0
+              h1 01
+            .col-sm.ms-5.ms-sm-0
               p Un multímetro digital: se utiliza para comprobar las tensiones de alimentación y la conectividad de los cables. Muchos procedimientos de resolución de problemas requieren que se compruebe la tensión y la resistencia. Los valores se miden con un multímetro manual. El medidor puede tener una lectura analógica o digital (LCD) y utilizará un par de sondas para conectarse al dispositivo que se está probando.
         .tarjeta.bg-tarjeta.p-4.mb-3(data-aos="fade-up")
           .row.justify-content-center.align-items-center
-            .col-2
-              h1.texto-blanco 02
-            .col-10
+            .col-sm-2.ms-5.ms-sm-0
+              h1 02
+            .col-sm.ms-5.ms-sm-0
               p Equipos y materiales de limpieza: por ejemplo, productos químicos de limpieza de contacto, aire comprimido, cepillo de cerdas, aspirador de mano.
         .tarjeta.bg-tarjeta.p-4.mb-3(data-aos="fade-up")
           .row.justify-content-center.align-items-center
-            .col-2
-              h1.texto-blanco 03
-            .col-10
+            .col-sm-2.ms-5.ms-sm-0
+              h1 03
+            .col-sm.ms-5.ms-sm-0
               p Enchufes de envoltura: se utilizan para diagnosticar los problemas de los puertos serie y paralelo.
         .tarjeta.bg-tarjeta.p-4(data-aos="fade-up")
           .row.justify-content-center.align-items-center
-            .col-2
-              h1.texto-blanco 04
-            .col-10
+            .col-sm-2.ms-5.ms-sm-0
+              h1 04
+            .col-sm.ms-5.ms-sm-0
               p Muñequeras, alfombrillas y bolsas antiestáticas: La descarga estática puede dañar las placas de circuitos, por lo que el equipo antiestático es vital. Los componentes de repuesto del PC deben guardarse siempre en bolsas antiestáticas de protección, como las que utilizan los fabricantes para suministrar las tarjetas de interfaz.
     separador
     #t_4_3.titulo-segundo.color-acento-botones(data-aos="fade-right")
        h2 4.3 Normativa
-    p.mb-5(data-aos="fade-left") La norma ISO 20000 puede ayudar a su organización a evaluar su ITSM, mejorar los servicios, demostrar su capacidad para cumplir los requisitos de los clientes y crear un marco para la evaluación independiente. Ventajas de la certificación ISO 20000 para los proveedores de servicios son:
+    p.mb-5(data-aos="fade-left") La norma ISO 20000 puede ayudar a su organización a evaluar su ITSM, mejorar los servicios, demostrar su capacidad para cumplir los requisitos de los clientes y crear un marco para la evaluación independiente. Las ventajas de la certificación ISO 20000 para los proveedores de servicios son:
     .bg-fondo3
       .row.justify-content-center.align-items-center.mb-5
         .col-10.col-lg-4.mt-5.mb-3

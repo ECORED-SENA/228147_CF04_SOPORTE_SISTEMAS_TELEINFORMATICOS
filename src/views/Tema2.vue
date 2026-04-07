@@ -12,7 +12,7 @@
           :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img1.svg')})`}"
         )
         .bloque-texto-g__texto.p-4(data-aos="flip-down")
-          p.mb-0 El mantenimiento preventivo es una actividad organizada para evitar el desgaste o el fallo repentino de los componentes de los equipos. Los fallos mecánicos, de proceso, de control o de cualquier otro tipo del equipo pueden tener efectos adversos tanto en términos humanos como económicos. Además del tiempo de inactividad y de los costes que supone reparar y/o sustituir las piezas o componentes del equipo, existe el riesgo de que los operarios se lesionen y de que se exponen a agentes químicos y/o físicos. Por lo tanto, el mantenimiento preventivo es muy importante y la actividad de prevención de accidentes en los lugares de trabajo debe integrarse en el proceso de operación/fabricación del producto.
+          p.mb-0 El mantenimiento preventivo es una actividad organizada para evitar el desgaste o el fallo repentino de los componentes de los equipos. Los fallos mecánicos, de proceso, de control o de cualquier otro tipo del equipo pueden tener efectos adversos tanto en términos humanos como económicos. Además del tiempo de inactividad y de los costes que supone reparar y/o sustituir las piezas o componentes del equipo, existe el riesgo de que los operarios se lesionen y de que se expongan a agentes químicos y/o físicos. Por lo tanto, el mantenimiento preventivo es muy importante y la actividad de prevención de accidentes en los lugares de trabajo debe integrarse en el proceso de operación/fabricación del producto.
     p.mb-5(data-aos="fade-left") El mantenimiento preventivo de los equipos debe realizarse, por tanto, para:
     .bg-fondo3
       .row.justify-content-center.align-items-center.mb-4
@@ -72,29 +72,37 @@
         .tarjeta-numerada.color-primario.p-4(style="height:110px")
           .tarjeta-numerada__numero
             .h2 a
-          p.text-center.mt-3
-            b Inspección.
+          .row.align-items-center.h-100
+            .col-12
+              p.text-center.mb-0
+                b Inspección.
           p.text-center
       .col-md-6.col-xl.mb-4.mb-xl-0
         .tarjeta-numerada.color-acento-contenido.p-4(style="height:110px")
           .tarjeta-numerada__numero
             .h2 b
-          p.text-center.mt-3
-            b Revisión.
+          .row.align-items-center.h-100
+            .col-12
+              p.text-center.mb-0
+                b Revisión.
           p.text-center
       .col-md-6.col-xl.mb-4.mb-xl-0
         .tarjeta-numerada.color-primario.p-4(style="height:110px")
           .tarjeta-numerada__numero
             .h2 c
-          p.text-center
-            b Reparación y sustitución de piezas defectuosas. 
+          .row.align-items-center.h-100
+            .col-12
+              p.text-center.mb-0.ms-2
+                b Reparación y sustitución de piezas defectuosas. 
           p.text-center
       .col-md-6.col-xl.mb-4.mb-xl-0
         .tarjeta-numerada.color-acento-contenido.p-4(style="height:110px")
           .tarjeta-numerada__numero
             .h2 d
-          p.text-center.mt-3
-            b Validación y comprobación.
+          .row.align-items-center.h-100
+            .col-12
+              p.text-center.mb-0.ms-2
+                b Validación y comprobación.
           p.text-center
     p.mb-5 Básicamente, el mantenimiento preventivo implica la sustitución planificada de los componentes, diseñada en torno a la siguiente información:
     .row.bg-c3
@@ -119,7 +127,7 @@
           .tarjeta.tarjeta-gris-degrade.p-3(data-aos="fade-up")
             p.mb-0 Las tareas en estas áreas están relacionadas con las partes mecánicas y eléctricas del equipo electrónico. Por lo tanto, el técnico debe conocer el funcionamiento del sistema mecánico empleado habitualmente en los equipos electrónicos. Es importante conocer y ser capaz de identificar la información relativa al desmontaje y sustitución de los componentes mecánicos en la literatura técnica. Dicha información suele figurar en el manual de servicio del equipo.
       .row.justify-content-center.align-items-center
-        .col-lg-10.mb-5
+        .col-lg-10
           .tarjeta-titulo2.p-2
             h4.mb-0.text-center.texto-blanco De igual forma, dentro de este proceso preventivo se establecen ciertas recomendaciones como las siguientes:
     .row.bg-c1
@@ -181,7 +189,7 @@
         .cajon.color-primario.p-4(data-aos="flip-up")
           p.mb-0 Para proteger las piezas eléctricas o electrónicas, los conjuntos y los equipos susceptibles de sufrir daños por ESD, los dispositivos de protección externa contra ESD deben respetar dos puntos principales para cumplir con las normativas y los estándares de seguridad nacionales e internacionales:
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-10.mb-5
+      .col-lg-10
         .tarjeta-titulo2.p-2
           h4.mb-0.text-center.texto-blanco Para garantizar el cumplimiento de los requisitos más estrictos, los dispositivos de protección ESD deben combinar:
     .row.justify-content-center.align-items-center.mb-5

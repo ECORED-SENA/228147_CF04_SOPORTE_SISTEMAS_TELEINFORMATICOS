@@ -52,7 +52,7 @@
                 | Informes y métricas que hacen un seguimiento del proyecto, el personal y el rendimiento de los recursos.
               li 
                 i.fas.fa-check-circle
-                | Wiki interno
+                | Wiki interno.
     separador
     #t_6_1.titulo-segundo.color-acento-botones
        h2 6.1 Fichas técnicas
@@ -153,33 +153,40 @@
         .bloque-texto-g__texto.p-4(data-aos="flip-down")
           p.mb-0 Los formatos de la documentación técnica se refieren a cualquier documento que explique el uso, la funcionalidad, la creación o la arquitectura de un producto. Hay que pensar en esos formatos como una guía práctica para los usuarios, los nuevos empleados, los administradores y cualquier otra persona que necesite saber cómo funciona un producto. Pero, aunque parezca bastante sencillo, los resultados rara vez lo son.
       p.mt-5 Los formatos de la documentación técnica no consisten sólo en capturar información. Se trata de presentarla de forma que sea fácil de leer, utilizable y realmente útil para la audiencia. A continuación, muestra una breve guía para hacer formatos de documentación técnica que sean realmente útiles.
-    .row.justify-content-center.align-items-center
-      ImagenInfograficaB.color-acento-botones
-        template(v-slot:imagen)
-          figure(data-aos="fade-right")
-            img(src='@/assets/curso/temas/tema6/img12.svg', alt='')
-        div(x="30.5%" y="50%" )
-          ul.lista-ul--color.lista-ul--separador.fa-ul2
-            li 
-              i.fas.fa-check-circle
-              | Utilizar plantillas o “esquemas” para un diseño coherente en la página.
-            li 
-              i.fas.fa-check-circle
-              | Crear una estructura de navegación sencilla y lógica
-        div(x="50%" y="50%" )
-          ul.lista-ul--color.lista-ul--separador.fa-ul2
-            li 
-              i.fas.fa-check-circle
-              | Empezar con un borrador.
-            li 
-              i.fas.fa-check-circle
-              | Utilizar la regla del 30/90 para obtener comentarios.
-            li 
-              i.fas.fa-check-circle
-              | Obtenga revisiones de sus compañeros y haga revisiones.
-            li 
-              i.fas.fa-check-circle
-              | Edita, edita y edita un poco más.
+    .bg-fondo_tema6 
+      .row.justify-content-center.align-items-center
+        ImagenInfografica.color-adicional-1
+          template(v-slot:imagen)
+            figure(data-aos="fade-right")
+              img(src='@/assets/curso/temas/tema6/img12.svg', alt='')
+          .tarjeta.color-adicional-1.p-4(x="30.2%" y="53%" numero="+")
+            ul.lista-ul--color.lista-ul.mb-0
+              li.d-flex
+                i.fas.fa-check-circle
+                |
+                p.text-white Utilizar plantillas o “esquemas” para un diseño coherente en la página.
+              li.d-flex.mb-0
+                i.fas.fa-check-circle
+                |
+                p.text-white.mb-0 Crear una estructura de navegación sencilla y lógica.
+          .tarjeta.color-adicional-1.p-4(x="50%" y="53%" numero="+")
+            ul.lista-ul--color.lista-ul.mb-0
+              li.d-flex
+                i.fas.fa-check-circle
+                |
+                p.text-white Empezar con un borrador.
+              li.d-flex
+                i.fas.fa-check-circle
+                |
+                p.text-white Utilizar la regla del 30/90 para obtener comentarios.
+              li.d-flex
+                i.fas.fa-check-circle
+                |
+                p.text-white Obtenga revisiones de sus compañeros y haga revisiones.
+              li.d-flex.mb-0
+                i.fas.fa-check-circle
+                |
+                p.text-white.mb-0 Edita, edita y edita un poco más.
     separador
     #t_6_5.titulo-segundo.color-acento-botones
        h2 6.5 Reportes técnicos

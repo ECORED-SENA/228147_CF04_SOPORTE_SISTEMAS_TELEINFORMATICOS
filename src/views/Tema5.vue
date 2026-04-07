@@ -6,24 +6,26 @@
       .titulo-principal__numero
         span 5
       h1 Medidas correctivas
-    .row.justify-content-center.align-items-center
+    .row.justify-content-center.align-items-center.mb-5
       .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
         .bloque-texto-g__img(
           :style="{'background-image': `url(${require('@/assets/curso/temas/tema5/img1.png')})`}"
         )
         .bloque-texto-g__texto.p-4(data-aos="flip-down")
           p.mb-0 Así como se espera tener un mantenimiento preventivo en los equipos y en una organización como tal, en ocasiones, se tendrán situaciones en que las medidas deben ser correctivas, lo que permite luego, una oportunidad para mejorar el plan inicial de mantenimiento. El proceso de localización de averías comprende los siguientes pasos:
-    ImagenInfograficaB.color-primario.mt-5
-      template(v-slot:imagen)
-        figure(data-aos="fade-right")
-          img(src='@/assets/curso/temas/tema5/img2.svg', alt='')
-      div(x="22%" y="14%")
-        p Antes de emprender cualquier otra acción, es importante establecer la presencia de un fallo en un equipo. En algunos casos, se puede informar de que un sistema es defectuoso, pero puede tratarse de un funcionamiento defectuoso o se puede informar de un fallo del sistema con muy poca información o con información errónea. Es esencial que se realice una prueba de funcionamiento para comprobar el rendimiento real del sistema con respecto a su especificación, y que se anoten todos los síntomas de fallo.
-        p También es importante comprobar con el operador del equipo el historial del mismo y los trabajos de reparación y mantenimiento realizados anteriormente por cualquier otra persona. A veces, un trabajo incompleto o un mal manejo del equipo por parte de un trabajador inexperto podría resultar desastroso y desafiar todos los esfuerzos por reparar el equipo.
-      div(x="53%" y="15%")
-        p El procedimiento comprenderá un estudio de la bibliografía relativa a la revisión, el mantenimiento y las reparaciones, y la localización de la causa de la avería, primero en un subsistema y, finalmente, en un único componente del subsistema.
-      div(x="87%" y="15%")
-        p Consiste en sustituir o reparar el componente defectuoso. Esto debe ir siempre seguido de una comprobación exhaustiva del funcionamiento de todo el sistema.
+    .bg-fondo_tema6 
+      .row.justify-content-center.align-items-center
+        ImagenInfografica.color-adicional-1
+          template(v-slot:imagen)
+            figure(data-aos="fade-right")
+              img(src='@/assets/curso/temas/tema5/img2.svg', alt='')
+          .tarjeta.color-adicional-1.p-4(x="22.4%" y="15%" numero="+")
+            p.text-white Antes de emprender cualquier otra acción, es importante establecer la presencia de un fallo en un equipo. En algunos casos, se puede informar de que un sistema es defectuoso, pero puede tratarse de un funcionamiento defectuoso o se puede informar de un fallo del sistema con muy poca información o con información errónea. Es esencial que se realice una prueba de funcionamiento para comprobar el rendimiento real del sistema con respecto a su especificación, y que se anoten todos los síntomas de fallo.
+            p.text-white.mb-0 También es importante comprobar con el operador del equipo el historial del mismo y los trabajos de reparación y mantenimiento realizados anteriormente por cualquier otra persona. A veces, un trabajo incompleto o un mal manejo del equipo por parte de un trabajador inexperto podría resultar desastroso y desafiar todos los esfuerzos por reparar el equipo.
+          .tarjeta.color-adicional-1.p-4(x="53%" y="18%" numero="+")
+            p.text-white.mb-0 El procedimiento comprenderá un estudio de la bibliografía relativa a la revisión, el mantenimiento y las reparaciones, y la localización de la causa de la avería, primero en un subsistema y, finalmente, en un único componente del subsistema.
+          .tarjeta.color-adicional-1.p-4(x="86%" y="18%" numero="+")
+            p.text-white.mb-0 Consiste en sustituir o reparar el componente defectuoso. Esto debe ir siempre seguido de una comprobación exhaustiva del funcionamiento de todo el sistema.
     separador
     #t_5_1.titulo-segundo.color-acento-botones(data-aos="fade-right")
        h2 5.1 Protocolos 
@@ -185,10 +187,10 @@
                   p.mb-0 <b>Peligro:</b> indica un riesgo de lesión personal inmediatamente accesible al leer la señalización. La señal de peligro (4) se marcará normalmente en los lugares donde existan altas tensiones en el equipo.
                 li 
                   i.fas.fa-check-circle
-                  p.mb-0 O Tierra de protección (terminal de tierra).
+                  p.mb-0 Tierra de protección (terminal de tierra).
                 li 
                   i.fas.fa-check-circle
-                  p.mb-0 O consulte el manual.
+                  p.mb-0 Consulte el manual.
           .row(numero="2" titulo="Alimentación")
             .col-md-12.mb-4.mb-md-0
               p Asegúrese de los requisitos de alimentación del equipo. Algunos equipos funcionan con baterías, mientras que otros pueden funcionar con la red eléctrica. Identifique la tensión de alimentación de la red, es decir, si es de 110 voltios, 60 Hz o 220 voltios, 50 Hz y la tensión máxima que puede aplicarse desde la fuente de alimentación. Determine los conductores de alimentación (si el enchufe no está presente o si se sospecha que está mal cableado) y el cable de tierra. La conexión a tierra de protección mediante el conductor de tierra del cable de alimentación es esencial para un funcionamiento seguro.
@@ -301,7 +303,7 @@
             ul.lista-ul--color.lista-ul--separador.fa-ul2
               li 
                 i.fas.fa-check-circle
-                p.mb-0 Descripción de la pieza necesaria, es decir, nombre de la pieza y número de circuito; y
+                p.mb-0 Descripción de la pieza necesaria, es decir, nombre de la pieza y número de circuito.
               li 
                 i.fas.fa-check-circle
                 p.mb-0 Número de la pieza especificada por el fabricante en el manual de servicio.
