@@ -9,7 +9,7 @@
         figure
           img(src="@/assets/curso/temas/sintesis.svg", alt="Muestra el esquema de la síntesis del componente formativo, gestión de “hardware” y “software”, que se establece en dos bloques, conocimiento base y mantenimiento del equipo.")
       .col-auto
-        a.anexo.mb-5(:href="obtenerLink('/downloads/sintesis.pdf')" target="_blank")
+        a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
