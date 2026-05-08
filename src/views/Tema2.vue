@@ -184,29 +184,29 @@
         figure
           img(src='@/assets/curso/temas/tema2/img15.png', alt='', style="width: 400px").m-auto
       .col-lg-8
-        p(data-aos="fade-left") La protección contra las descargas electrostáticas (ESD) forma parte de los requisitos de Inmunidad CEM (Compatibilidad Electromagnética) Se trata de la capacidad de los equipos de funcionar correctamente en su entorno electromagnético limitando la recepción de energía electromagnética que pueda causar daños físicos. La ESD puede ser conducida bajo la forma de un voltaje transitorio o puede ser radiada debido a su rápido tiempo de subida: los armónicos potentes generarán un comportamiento errático por parte de la aplicación al acoplarse con otras señales. Las placas de circuito impreso deben estar protegidas contra los efectos de las descargas electrostáticas.
+        p(data-aos="fade-left") La protección contra las descargas electrostáticas (ESD) forma parte de los requisitos de inmunidad CEM (Compatibilidad Electromagnética) Se trata de la capacidad de los equipos de funcionar correctamente en su entorno electromagnético limitando la recepción de energía electromagnética que pueda causar daños físicos. La ESD puede ser conducida bajo la forma de un voltaje transitorio o puede ser radiada debido a su rápido tiempo de subida: los armónicos potentes generarán un comportamiento errático por parte de la aplicación al acoplarse con otras señales. Las placas de circuito impreso deben estar protegidas contra los efectos de las descargas electrostáticas.
         p(data-aos="fade-left") A medida que el área de funcionamiento seguro de los procesos CMOS actuales se hace más estrecha, son cada vez más sensibles a la ESD. Los fabricantes de silicio suelen utilizar el modelo de cuerpo humano (HBM) para caracterizar la susceptibilidad a la ESD en un entorno controlado; sin embargo, esta es mucho mayor en el mundo real a nivel de sistema.
         .cajon.color-primario.p-4(data-aos="flip-up")
-          p.mb-0 Para proteger las piezas eléctricas o electrónicas, los conjuntos y los equipos susceptibles de sufrir daños por ESD, los dispositivos de protección externa contra ESD deben respetar dos puntos principales para cumplir con las normativas y los estándares de seguridad nacionales e internacionales:
+          p.mb-0 Para proteger las piezas eléctricas o electrónicas, los conjuntos y los equipos susceptibles de sufrir daños por ESD, los dispositivos de protección externa contra ESD deben respetar cinco puntos principales para cumplir con las normativas y los estándares de seguridad nacionales e internacionales:
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
         .tarjeta-titulo2.p-2
           h4.mb-0.text-center.texto-blanco Para garantizar el cumplimiento de los requisitos más estrictos, los dispositivos de protección ESD deben combinar:
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-3
       .col-lg-10
         ImagenInfografica
           template(v-slot:imagen)
             figure
               img(src='@/assets/curso/temas/tema2/img16.svg', alt='Protección de piezas eléctricas o electrónicas:<br>Requisitos estrictos<br>Eficacia de la protección con una baja tensión de cerrado (VCL).<br>Transparencia de la protección con una baja corriente de fuga (IRM).<br>Integridad de la señal con una capacitancia baja y un ancho de banda amplio.<br>Puntos principales<br>El dispositivo de protección ESD externo no debe afectar al rendimiento del sistema, incluyendo la tensión de funcionamiento, el ancho de banda y el consumo de energía.<br>El dispositivo de protección ESD externo debe proteger el circuito contra eventos ESD a nivel de sistema mediante el bloqueo de los transitorios de sobretensión ESD.')
-          .tarjeta.color-adicional-1.p-4(x="5%" y="42%" numero="")
+          .tarjeta.color-adicional-1.p-4(x="4%" y="42%" numero="")
             p.texto-blanco Eficacia de la protección con una baja tensión de cerrado (VCL).
-          .tarjeta.color-adicional-1.p-4(x="19.5%" y="75%" numero="")
+          .tarjeta.color-adicional-1.p-4(x="18%" y="75%" numero="")
             p.texto-blanco Transparencia de la protección con una baja corriente de fuga (IRM).
-          .tarjeta.color-adicional-1.p-4(x="50%" y="92%" numero="")
+          .tarjeta.color-adicional-1.p-4(x="50%" y="93%" numero="")
             p.texto-blanco Integridad de la señal con una capacitancia baja y un ancho de banda amplio.
-          .tarjeta.color-adicional-1.p-4(x="79%" y="76%" numero="")
+          .tarjeta.color-adicional-1.p-4(x="80%" y="77%" numero="")
             p.texto-blanco El dispositivo de protección ESD externo no debe afectar al rendimiento del sistema, incluyendo la tensión de funcionamiento, el ancho de banda y el consumo de energía.
-          .tarjeta.color-adicional-1.p-4(x="95%" y="42%" numero="")
+          .tarjeta.color-adicional-1.p-4(x="96%" y="42%" numero="")
             p.texto-blanco El dispositivo de protección ESD externo debe proteger el circuito contra eventos ESD a nivel de sistema mediante el bloqueo de los transitorios de sobretensión ESD.
 
 </template>

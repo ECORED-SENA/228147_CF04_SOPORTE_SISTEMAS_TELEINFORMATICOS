@@ -28,7 +28,6 @@
       .col-lg-4
         figure(data-aos="fade-right")
           img(src='@/assets/curso/temas/tema3/img3.png', alt='')
-    p.mb-5 Dado que el SO proporciona estas llamadas para ejecutar programas, acceder a la memoria y a los dispositivos, y otras acciones relacionadas, a veces, se dice que el SO proporciona una biblioteca estándar a las aplicaciones.
     .row.justify-content-center.align-items-center
       .col-10.col-lg-5
         figure(data-aos="fade-right")
@@ -56,7 +55,7 @@
         figure
           img(src="@/assets/curso/temas/tema1/img19.png" style="max-width: 60px").m-auto
       .col
-        h3 Comportamiento CPU
+        h3 Comportamiento de la CPU
     .row.justify-content-center.align-items-center.mb-4
       .col-9
         .tarjeta.color-primario.p-3.mb-5
@@ -178,7 +177,7 @@
             :style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img16.png')})`}"
           )
           .bloque-texto-g1__texto.p-4(data-aos="flip-down")
-            p.mb-0 Ahora, una vez, estudiado las características de un SO, se hace necesario conocer los <i>software</i> utilitarios, como herramientas de soporte y mejora en la ejecución de programas o en la realización de una función específica. Existen tanto licenciados como aquellos de código abierto. Se expone en qué consiste cada una de estas categorías.
+            p.mb-0 Ahora, una vez estudiado las características de un SO, se hace necesario conocer los <i>software</i> utilitarios, como herramientas de soporte y mejora en la ejecución de programas o en la realización de una función específica. Existen tanto licenciados como aquellos de código abierto. Se expone en qué consiste cada una de estas categorías.
     .row.justify-content-center.align-items-center.mb-5
       .col-8.col-lg-4.mb-3
         figure
@@ -212,10 +211,9 @@
               .col-lg-9
                 p <b>Ventajas:</b> este tipo de licencia de <i>software</i> puede ser ventajoso porque ofrece opciones. Se puede optar por la versión sin cuotas, a menudo conocida como “<i>freemium</i>”.
                 p <b>Desventaja:</b> a menudo, las versiones gratuitas de <i>software</i> disponibles bajo este formato son limitadas en términos de capacidad. Sólo ofrece una versión básica de lo que ofrece la versión comercial, basada en la suscripción.
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center
       .cajon.color-primario.p-4.mb-5(data-aos="flip-up")
         p.mb-0 Para elegir el tipo de licencia que conviene, la pregunta que debe hacerse en última instancia es: ¿cuál le permitirá servir mejor a sus clientes? En el panorama competitivo actual, atender las necesidades de TI de sus clientes significa no sólo satisfacer y superar sus expectativas, sino también mejorar en todo momento y anticiparse a sus necesidades de TI antes de que sean conscientes de ellas. Es por ello que conocer los SO también de código abierto, como Linux, debe ser parte del trabajo.
-      p.mb-5 En el panorama competitivo actual, atender las necesidades de TI de sus clientes significa no sólo satisfacer y superar sus expectativas, sino también mejorar en todo momento y anticiparse a sus necesidades de TI antes de que sean conscientes de ellas. Es por ello que conocer los SO también de código abierto, como Linux, debe ser parte del trabajo.
     .row.justify-content-center.align-items-center.mb-5
       .col-10.col-lg-3
         figure
@@ -227,7 +225,7 @@
           .tarjeta.tarjeta--gris.p-4(titulo="¿Cómo funciona?")
             p Linux se ha convertido en el mayor proyecto de <i>software</i> de código abierto del mundo. Programadores y desarrolladores profesionales y aficionados de todo el mundo contribuyen al núcleo de Linux, añadiendo funciones, encontrando y corrigiendo errores y fallos de seguridad, aplicando parches en vivo y aportando nuevas ideas, al tiempo que comparten sus contribuciones con la comunidad. 
           .tarjeta.tarjeta--gris.p-4(titulo="¿Cómo es su diseño?")
-            p Linux fue diseñado para ser similar a UNIX, pero ha evolucionado para funcionar en una amplia variedad de <i>hardware</i>, desde teléfonos hasta supercomputadores. Todos los sistemas operativos basados en Linux incluyen el kernel de Linux -que gestiona los recursos de <i>hardware</i>- y un conjunto de paquetes de <i>software</i> que conforman el resto del sistema operativo.
+            p Linux fue diseñado para ser similar a UNIX, pero ha evolucionado para funcionar en una amplia variedad de <i>hardware</i>, desde teléfonos hasta supercomputadores. Todos los sistemas operativos basados en Linux incluyen el kernel de Linux, que gestiona los recursos de <i>hardware</i> y un conjunto de paquetes de <i>software</i> que conforman el resto del sistema operativo.
             .row.justify-content-center.align-items-center
               .col-lg-8
                 ImagenInfografica.color-acento-botones
@@ -235,7 +233,7 @@
                     figure
                       img(src='@/assets/curso/temas/tema3/img22.svg', alt='')
                   .tarjeta.color-primario.p-4(x="90%" y="55%" numero="")
-                    p.texto-blanco El SO incluye algunos componentes básicos comunes, como las herramientas GNU, entre otros. Estas herramientas ofrecen al usuario una forma de gestionar los recursos proporcionados por el núcleo, instalar <i>software</i> adicional, configurar el rendimiento y la seguridad, etc. Todas estas herramientas juntas conforman el sistema operativo funcional. Como Linux es un sistema operativo de código abierto, las combinaciones de <i>software</i> pueden variar entre las distribuciones de Linux.
+                    p.mb-0 El SO incluye algunos componentes básicos comunes, como las herramientas GNU, entre otros. Estas herramientas ofrecen al usuario una forma de gestionar los recursos proporcionados por el núcleo, instalar <i>software</i> adicional, configurar el rendimiento y la seguridad, etc. Todas estas herramientas juntas conforman el sistema operativo funcional. Como Linux es un sistema operativo de código abierto, las combinaciones de <i>software</i> pueden variar entre las distribuciones de Linux.
           .tarjeta.tarjeta--gris.p-4(titulo="¿Qué incluye Linux?")
             ul.lista-ul--color.fa-ul2
               li 
@@ -249,9 +247,9 @@
                 p.mb-0 <b>Aplicaciones:</b> un tipo de <i>software</i> que permite realizar una tarea. Las aplicaciones incluyen desde herramientas de escritorio y lenguajes de programación hasta suites empresariales multiusuario. La mayoría de las distribuciones de Linux ofrecen una base de datos central para buscar y descargar aplicaciones adicionales.
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8
-        .cajon.color-primario.p-4.mb-5(data-aos="flip-up")
+        .cajon.color-primario.p-4.mb-4(data-aos="flip-up")
           p.mb-0 Sumado a esto, se debe tener presente también que los <i>software</i>s licenciados y utilidades de monitoreo le ayudan a gestionar los recursos de los equipos con los que se cuenta dentro de la red de una organización.
-        p El <i>software</i> de monitorización está diseñado para hacer un seguimiento de las operaciones y actividades de los usuarios que trabajan en los sistemas de la empresa. Básicamente, supervisa las operaciones que realizan los usuarios en su sistema y proporciona servicios de información al administrador del sistema o de la red. Este <i>software</i> de supervisión también se conoce como <i>software</i> de vigilancia informática. Entre estos se encuentran:
+        p.mb-0 El <i>software</i> de monitorización está diseñado para hacer un seguimiento de las operaciones y actividades de los usuarios que trabajan en los sistemas de la empresa.
       .col-lg-4
         figure
           img(src='@/assets/curso/temas/tema3/img23.png', alt='')
@@ -277,14 +275,14 @@
               .row.justify-content-center.align-items-center
                 .col-lg-6.mb-4.mb-lg-0
                   h4.mb-5 <b style= 'color:#5573C6;'>ActiveTrak</b>
-                  p Es una herramienta de monitorización de aspecto elegante que instala el Agente en cada computador remoto y le presenta el estado en vivo de cada computador. Proporciona horas productivas e improductivas, capturas de pantalla de las actividades y tiene la capacidad de monitorizar en tiempo real. Con la ayuda de la pantalla de productividad, puede evaluar el rendimiento de los empleados sobre una base diaria, semanal, mensual o anual. También proporciona una lista del empleado más productivo y la lista de los sitios web más visitados por los usuarios.
+                  p Es una herramienta de monitorización de aspecto elegante que instala el agente en cada computador remoto y le presenta el estado en vivo de cada computador. Proporciona horas productivas e improductivas, capturas de pantalla de las actividades y tiene la capacidad de monitorizar en tiempo real. Con la ayuda de la pantalla de productividad, puede evaluar el rendimiento de los empleados sobre una base diaria, semanal, mensual o anual. También proporciona una lista del empleado más productivo y la lista de los sitios web más visitados por los usuarios.
                 .col-lg-4
                   figure
                     img(src='@/assets/curso/temas/tema3/img26.png', alt='', style="width: 400px;").m-auto
               .row.justify-content-center.align-items-center
                 .col-lg-6.mb-4.mb-lg-0
                   h4.mb-5 <b style= 'color:#5573C6;'>Flexispy</b>
-                  p La mayoría de las herramientas de monitorización son únicamente útiles para los sistemas informáticos, pero Flexispy es una de esas herramientas que soporta la monitorización de dispositivos móviles como smartphones y tablets también. Usted puede optar por monitorear sus teléfonos inteligentes basados en Android y iPhone y grabar la comunicación de audio.
+                  p La mayoría de las herramientas de monitorización son únicamente útiles para los sistemas informáticos, pero Flexispy es una de esas herramientas que soporta la monitorización de dispositivos móviles como smartphones y tablets también. Usted puede optar por monitorear sus teléfonos inteligentes basados en Android e iPhone y grabar la comunicación de audio.
                 .col-lg-4
                   figure
                     img(src='@/assets/curso/temas/tema3/img27.svg', alt='', style="width: 400px;").m-auto
@@ -328,7 +326,7 @@
               p.texto-blanco Uno de los objetivos al diseñar e implementar un sistema operativo es proporcionar un alto rendimiento; otra forma de decir esto es que nuestro objetivo es minimizar los gastos generales del SO. La virtualización y la facilidad de uso del sistema merecen la pena, pero no a cualquier precio. Estas sobrecargas surgen de varias formas: tiempo extra (más instrucciones) y espacio extra (en memoria o en disco). Buscaremos soluciones que reduzcan al mínimo uno u otro, o ambos, si es posible. La perfección, sin embargo, no siempre es alcanzable, algo que aprenderemos a notar y (en su caso) a tolerar.
             .tarjeta.color-adicional-1.p-4(x="59%" y="95%" numero="")
               h5.texto-blanco Establecer protección entre aplicaciones
-              p.texto-blanco Otro objetivo será establecer protección entre aplicaciones, así como entre el SO y las aplicaciones. Dado que se quiere permitir que se ejecuten muchos programas al mismo tiempo, se debe asegurar de que el mal comportamiento malicioso o accidental de uno no perjudique a los demás; desde luego, no se quiere que una aplicación pueda perjudicar al propio SO (ya que eso afectaría a todos los programas que se ejecutan en el sistema). La protección está en el corazón de uno de los principales principios subyacentes a un sistema operativo, que es el del aislamiento; aislar los procesos entre sí es la clave de la protección y, por tanto, subyace a gran parte de lo que debe hacer un SO.
+              p.texto-blanco Otro objetivo será establecer protección entre aplicaciones, así como entre el SO y las aplicaciones. Dado que se quiere permitir que se ejecuten muchos programas al mismo tiempo, se debe asegurar que el mal comportamiento malicioso o accidental de uno no perjudique a los demás; desde luego, no se quiere que una aplicación pueda perjudicar al propio SO (ya que eso afectaría a todos los programas que se ejecutan en el sistema). La protección está en el corazón de uno de los principales principios subyacentes a un sistema operativo, que es el del aislamiento; aislar los procesos entre sí es la clave de la protección y, por tanto, subyace a gran parte de lo que debe hacer un SO.
             .tarjeta.color-adicional-1.p-4(x="67%" y="95%" numero="")
               h5.texto-blanco Tener eficiencia energética
               p.texto-blanco La eficiencia energética es importante en nuestro mundo cada vez más ecológico; la seguridad (una extensión de la protección, en realidad) contra las aplicaciones maliciosas es fundamental, especialmente en estos tiempos de alta conexión en red; la movilidad es cada vez más importante a medida que los SO se ejecutan en dispositivos cada vez más pequeños. Dependiendo de cómo se utilice el sistema, el SO tendrá diferentes objetivos y, por lo tanto, es probable que se implemente de maneras al menos ligeramente diferentes. Sin embargo, como veremos, muchos de los principios que presentaremos sobre cómo construir un SO son útiles en una serie de dispositivos diferentes.
@@ -347,7 +345,7 @@
       .col-10.col-lg-4
         figure
           img(src='@/assets/curso/temas/tema3/img32.png', alt='')
-    p.mb-5(data-aos="fade-right") Sin embargo, los atacantes inteligentes son … inteligentes…, e incluso cuando el código inyectado no puede ser añadido explícitamente por el atacante, secuencias de código arbitrarias pueden ser ejecutadas por el código malicioso. La idea se conoce, en su forma más general, como programación orientada al retorno (ROP), y realmente es bastante brillante. 
+    p.mb-5(data-aos="fade-right") Sin embargo, los atacantes inteligentes son… inteligentes… e incluso cuando el código inyectado no puede ser añadido explícitamente por el atacante, secuencias de código arbitrarias pueden ser ejecutadas por el código malicioso. La idea se conoce, en su forma más general, como programación orientada al retorno (ROP), y realmente es bastante brillante. 
     .bg-fondo3
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-4.mb-5
@@ -399,7 +397,7 @@
               .row.justify-content-center.align-items-center
                 .col-md-6.mb-4.mb-md-0
                   h4.mb-5 <b style= 'color:#5573C6;'>¿Cuál es el problema?</b>
-                  p El problema de la especulación es que tiende a dejar rastros de su ejecución en varias partes del sistema, como las cachés del procesador, los predictores de bifurcación, etc. y de ahí el problema: como demuestran los autores de los ataques, ese estado puede hacer vulnerable el contenido de la memoria, incluso la que creíamos protegida por la MMU.
+                  p El problema de la especulación es que tiende a dejar rastros de su ejecución en varias partes del sistema, como las cachés del procesador, los predictores de bifurcación, etc., y de ahí el problema: como demuestran los autores de los ataques, ese estado puede hacer vulnerable el contenido de la memoria, incluso la que creíamos protegida por la MMU.
                 .col-md-4
                   figure
                     img(src='@/assets/curso/temas/tema3/img39.png', alt='')

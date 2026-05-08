@@ -14,7 +14,7 @@
             img(src='@/assets/curso/temas/introduccion/img1.svg', alt='Imágen decorativa')
         .col-lg-8(data-aos="fade-left")
           .bloque-texto-a__texto.p-4
-            p Al igual que muchos otros usuarios de computadores, es probable que haya utilizado el computador personal para jugar, actualizar el perfil de Facebook, escribir trabajos o crear hojas de cálculo de Excel. Esta suposición que se hace aquí indica que se es un usuario de computadores, es decir, que puede encender su máquina, cargar un paquete de <i>software</i> y utilizarlo para realizar una tarea. Este componente le llevará de ser un usuario final del computador a convertirse en un técnico de soporte de tecnologías de la información (TI). Es por ello que antes de profundizar en cada temática se reflexione sobre la importancia de este rol en la actualidad, a través de este video.
+            p Al igual que muchos otros usuarios de computadores, es probable que haya utilizado el computador personal para jugar, actualizar el perfil de Facebook, escribir trabajos o crear hojas de cálculo de Excel. Esta suposición que se hace aquí indica que se es un usuario de computadores, es decir, que puede encender su máquina, cargar un paquete de <i>software</i> y utilizarlo para realizar una tarea. Este componente le llevará de ser un usuario final del computador a convertirse en un técnico de soporte de tecnologías de la información (TI). Es por ello que antes de profundizar en cada temática, se reflexione sobre la importancia de este rol en la actualidad, a través de este video.
     .row.justify-content-center.align-items-center(data-aos="fade-right")
       figure
         .video

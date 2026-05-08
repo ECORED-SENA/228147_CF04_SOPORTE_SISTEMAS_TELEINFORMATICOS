@@ -11,7 +11,7 @@
         img(src='@/assets/curso/temas/tema4/img1.png', alt='')    
       .col-lg-11
         .tarjeta.tarjeta-gris-degrade.p-3(data-aos="fade-up")
-          p.mb-0 El desgaste físico con el paso del tiempo y la acción de los elementos ambientales es inevitable, tanto en el caso de las instalaciones como de los equipos. El objetivo del mantenimiento es prolongar la vida de los equipos/sistemas y aumentar el tiempo medio entre fallos (MTBF) Algunos de los objetivos generales de un programa de gestión del mantenimiento son:
+          p.mb-0 El desgaste físico con el paso del tiempo y la acción de los elementos ambientales es inevitable, tanto en el caso de las instalaciones como de los equipos. El objetivo del mantenimiento es prolongar la vida de los equipos/sistemas y aumentar el tiempo medio entre fallos (MTBF). Algunos de los objetivos generales de un programa de gestión del mantenimiento son:
     .row.justify-content-center.align-items-center.mb-5
       SlyderF(columnas="col-lg-6 col-xl-4")
         .tarjeta.tarjeta-gris4.p-4
@@ -220,7 +220,7 @@
           :style="{'background-image': `url(${require('@/assets/curso/temas/tema4/img18.png')})`}"
         )
         .bloque-texto-g__texto.p-4(data-aos="flip-down")
-          p.mb-0 Luego, de comprender las opciones de servicio, se hace necesario también entender los elementos de protección personal, ya que unas condiciones de trabajo seguras ayudan a evitar lesiones a las personas y daños a los equipos informáticos. Un espacio de trabajo seguro está limpio, organizado y adecuadamente iluminado. Por tanto, todo el mundo debe entender y seguir los procedimientos de seguridad. El siguiente recurso expone algunas precauciones básicas, pautas de seguridad y herramientas esenciales que suelen usarse cuando se trabaja con un computador son:
+          p.mb-0 Luego, de comprender las opciones de servicio, se hace necesario también entender los elementos de protección personal, ya que unas condiciones de trabajo seguras ayudan a evitar lesiones a las personas y daños a los equipos informáticos. Un espacio de trabajo seguro está limpio, organizado y adecuadamente iluminado. Por tanto, todo el mundo debe entender y seguir los procedimientos de seguridad. El siguiente recurso expone algunas precauciones básicas, pautas de seguridad y herramientas esenciales que suelen usarse cuando se trabaja con un computador.
     .row.justify-content-center.align-items-center.my-5
       .bg-tarjeta3      
         .row.justify-content-center.align-items-center.mb-3
@@ -244,7 +244,7 @@
                 .col-6
                   figure.mb-3
                     img(src='@/assets/curso/temas/tema4/img21.svg', alt='')
-                p.text-center Apague el equipo y desenchúfelo antes de realizar el mantenimiento
+                p.text-center Apague el equipo y desenchúfelo antes de realizar el mantenimiento.
           .col-md-6.col-lg-2.mb-3
             .tarjeta.tarjeta-gris5.p-2
               .row.justify-content-center.align-items-center.mb-5
@@ -405,7 +405,7 @@
             p El equipo puede requerir servicios como una fuente de alimentación trifásica, gas comprimido, una línea de agua a cierta presión, una disposición de eliminación de fluidos, recintos especiales, etc. Estos servicios deben estar bien planificados e implementados en consulta con el proveedor de equipos mucho antes de que se reciba el equipo, ya que de lo contrario se quedaría en los pasillos embalado en cajas de madera, bloqueando un espacio y un capital preciosos.
           .row(numero="3" titulo="Pruebas de aceptación (inspección de entrada)")
             p Es necesario un procedimiento formal de aceptación para garantizar que la entrada en servicio de todos los equipos se controla adecuadamente. Las pruebas de aceptación y la puesta en servicio de los equipos incluyen las pruebas eléctricas y mecánicas iniciales, las pruebas de seguridad radiológica adecuadas y la calibración. A continuación, se realizan controles para verificar el cumplimiento de las especificaciones técnicas y funcionales. También es necesario realizar comprobaciones para garantizar el cumplimiento de las normas y reglamentos adecuados, especialmente en el caso de los equipos médicos y los que se van a utilizar en condiciones peligrosas. Hay que comprobar que los manuales técnicos, los repuestos y los accesorios están completos y son funcionales. Debe prepararse y firmarse un certificado de prueba de aceptación formal.
-          .row(numero="4" titulo="Control del inventario")
+          .row(numero="4" titulo="Control de inventario")
             p Una vez firmado el certificado de aceptación del equipo, este debe incluirse en el inventario mantenido en forma de “Registro de bienes”. En el inventario debe incluirse la siguiente información:
             ul.lista-ul--color.fa-ul2.mb-3
               li 

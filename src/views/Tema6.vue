@@ -65,12 +65,12 @@
           p.mb-0 Una hoja de datos técnicos (TDS), es un documento proporcionado con un producto que enumera varios elementos de información sobre el mismo. A menudo, las hojas de datos técnicos incluyen la composición del producto, los métodos de uso, los requisitos de funcionamiento, las aplicaciones habituales, las advertencias y las imágenes del producto.
     .bg-fondo3.mt-5
       .row.justify-content-center.align-items-center.mb-5
-        .col-lg-5.mb-5
+        .col-lg-5
           .tarjeta-titulo2.p-2
             h4.mb-0.text-center.texto-blanco Ejemplo de una ficha técnica. Tomado de Yumpu (2015)
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-8
-          figure(data-aos="fade-right")
+          figure(data-aos="fade-right").mb-4
             img(src='@/assets/curso/temas/tema6/img5.svg', alt='Ejemplo de una ficha técnica. Tomado de Yumpu (2015)  Una hoja de datos técnicos (TDS) se utiliza tanto con fines informativos como publicitarios')
     .row.justify-content-center.align-items-center
       .col-10.col-lg-3
@@ -79,7 +79,7 @@
       .col-lg-8
         .cajon.cajon-tema7.p-4(data-aos="flip-up")
           p.mb-0 Una hoja de datos técnicos (TDS) se utiliza tanto con fines informativos como publicitarios. Desde el punto de vista informativo, una TDS contiene consejos útiles sobre el producto, por ejemplo: cómo utilizarlo, de qué está hecho, qué cosas hay que tener en cuenta al utilizar el producto, y su nombre oficial y las especificaciones estándar de la industria. Desde el punto de vista del <i>marketing</i>, puede contener fotos e ilustraciones en color, así como secciones enteras en las que se describen los beneficios que el producto aportará al usuario final.
-        p.mt-3 Una TDS no debe confundirse con una hoja de datos de seguridad de los materiales (MSDS). El objetivo de la MSDS es informar específicamente al usuario final de los peligros que puede presentar el producto. Este no es el objetivo de la TDS, aunque puede incluir varias consideraciones de seguridad. Además, las hojas de datos de seguridad de los materiales deben seguir una plantilla determinada guiada por una norma industrial, mientras que una hoja de datos técnicos puede presentarse a discreción del fabricante del producto y contener la información que considere oportuna. Muchos países exigen que un material o producto tenga una ficha de datos de seguridad; la mayoría no exige una ficha técnica.
+        p.mt-3.mb-0 Una TDS no debe confundirse con una hoja de datos de seguridad de los materiales (MSDS). El objetivo de la MSDS es informar específicamente al usuario final de los peligros que puede presentar el producto. Este no es el objetivo de la TDS, aunque puede incluir varias consideraciones de seguridad. Además, las hojas de datos de seguridad de los materiales deben seguir una plantilla determinada guiada por una norma industrial, mientras que una hoja de datos técnicos puede presentarse a discreción del fabricante del producto y contener la información que considere oportuna. Muchos países exigen que un material o producto tenga una ficha de datos de seguridad; la mayoría no exige una ficha técnica.
     separador
     #t_6_2.titulo-segundo.color-acento-botones
        h2 6.2 Hoja de vida
@@ -111,7 +111,7 @@
             figure(data-aos="fade-right")
               img(src='@/assets/curso/temas/tema6/img9.svg', alt='')
           .col-lg-8.bg1-tema6
-            p.p-5.text-small Lo ideal sería que una medida de este tipo captará no sólo el stock tecnológico existente en una empresa en un momento determinado, sino también el esfuerzo de un competidor en investigación y desarrollo (I+D), la aparición de nuevas industrias y la canibalización de una empresa a través de productos más nuevos. Lamentablemente, la naturaleza multifacética de la obsolescencia tecnológica se ha medido indirectamente en la literatura a través de las citas de patentes.
+            p.p-5.mb-0 Lo ideal sería que una medida de este tipo captara no sólo el stock tecnológico existente en una empresa en un momento determinado, sino también el esfuerzo de un competidor en investigación y desarrollo (I+D), la aparición de nuevas industrias y la canibalización de una empresa a través de productos más nuevos. Lamentablemente, la naturaleza multifacética de la obsolescencia tecnológica se ha medido indirectamente en la literatura a través de las citas de patentes.
     separador
     #t_6_3.titulo-segundo.color-acento-botones
        h2 6.3 Planes
@@ -126,7 +126,7 @@
           .tarjeta.color-adicional-1.p-4(x="14%" y="42%" numero="+")
             p.mb-2.text-white La base de un buen cronograma del proyecto consiste en establecer los procedimientos, las políticas de la empresa y las directrices de documentación que regirán el proyecto. El plan de gestión del cronograma describe los recursos disponibles para el proyecto y las contingencias que pueden surgir. También enumera las partes interesadas en el plan, detalla las personas que deben aprobar el calendario y enumera a otras personas que deben recibir una copia.
           .tarjeta.color-adicional-1.p-4(x="38%" y="8%" numero="+")
-            p.mb-2.text-white Esto puede ser tan sencillo como crear una lista de tareas que deben completarse para entregar el proyecto. En el caso de proyectos complejos, puede ser útil organizar estas tareas en forma de at, un gráfico que visualiza las tareas del proyecto y sus subtareas y que permita mantenerse organizado en el trabajo.
+            p.mb-2.text-white Esto puede ser tan sencillo como crear una lista de tareas que deben completarse para entregar el proyecto. En el caso de proyectos complejos, puede ser útil organizar estas tareas en forma de at, un gráfico que visualiza las tareas del proyecto y sus subtareas y que permite mantenerse organizado en el trabajo.
           .tarjeta.color-adicional-1.p-4(x="62%" y="42%" numero="+")
             p.mb-2.text-white Una vez se tienen todas las actividades del proyecto enumeradas, se debe pensar en cada una de ellas cuidadosamente para identificar qué tareas dependen de otras para ser completadas. Es importante definir correctamente todas las dependencias del proyecto para poder programar con precisión y evitar retrasos en el proyecto.
           .tarjeta.color-adicional-1.p-4(x="86%" y="8%" numero="+")

@@ -39,7 +39,7 @@
               .col-lg-7.mb-4.mb-lg-0
                 h4 PC IBM
                 p En los años siguientes a la construcción de ENIAC, varios avances tecnológicos dieron lugar a notables progresos en las arquitecturas informáticas.
-                p La invención del transistor en 1947 por parte de John Bardeen, Walter Brattain y William Shockley supuso una gran mejora con respecto a la tecnología de tubos de vacío predominante en aquella época. Los transistores eran más rápidos, más pequeños, consumen menos energía y, una vez que los procesos de producción se habían optimizado lo suficiente, eran mucho más fiables que los tubos propensos a los fallos.
+                p La invención del transistor en 1947 por parte de John Bardeen, Walter Brattain y William Shockley supuso una gran mejora con respecto a la tecnología de tubos de vacío predominante en aquella época. Los transistores eran más rápidos, más pequeños, consumían menos energía y, una vez que los procesos de producción se habían optimizado lo suficiente, eran mucho más fiables que los tubos propensos a los fallos.
                 p La comercialización de los circuitos integrados en 1958, liderada por Jack Kilby de Texas Instruments, inició el proceso de combinar un gran número de componentes antes discretos en un único chip de silicio.
               .col-lg-5
                 figure(data-aos="fade-right")
@@ -80,7 +80,7 @@
               .col-lg-7.mb-4.mb-lg-0
                 h4 La ley de Moore
                 p Gordon Moore fue cofundador de Fairchild Semiconductor en 1957 y posteriormente presidente y director general de Intel. En 1965, Moore publicó un artículo en la revista Electronics en el que ofrecía su predicción de los cambios que se producirían en la industria de los semiconductores en los siguientes 10 años. En el artículo, observaba que el número de componentes antes discretos, como transistores, diodos y condensadores, que podían integrarse en un solo chip se había duplicado aproximadamente cada año y que era probable que la tendencia se mantuviera en los 10 años siguientes. Esta fórmula de duplicación se conoce como la ley de Moore. No era una ley científica en el sentido de la ley de la gravedad. Más bien, se basaba en una observación de tendencias históricas, y creía que esta formulación tenía cierta capacidad para predecir el futuro.
-                p La ley de Moore resultó ser impresionantemente precisa durante esos 10 años. En 1975, revisó la tasa de crecimiento prevista para los 10 años siguientes para duplicar el número de componentes por circuito integrado cada dos años, en lugar de anualmente. Este ritmo se mantuvo durante décadas, hasta aproximadamente 2010. En los últimos años, la tasa de crecimiento parece haber disminuido ligeramente. En 2015, Brian Krza- nich, consejero delegado de Intel, declaró que el ritmo de crecimiento de la empresa había disminuido hasta duplicarse cada dos años y medio aproximadamente.
+                p La ley de Moore resultó ser impresionantemente precisa durante esos 10 años. En 1975, revisó la tasa de crecimiento prevista para los 10 años siguientes para duplicar el número de componentes por circuito integrado cada dos años, en lugar de anualmente. Este ritmo se mantuvo durante décadas, hasta aproximadamente 2010. En los últimos años, la tasa de crecimiento parece haber disminuido ligeramente. En 2015, Brian Krzanich, consejero delegado de Intel, declaró que el ritmo de crecimiento de la empresa había disminuido hasta duplicarse cada dos años y medio aproximadamente.
               .col-lg-5
                 figure(data-aos="fade-right")
                   img(src='@/assets/curso/temas/tema1/img9.svg', alt='', style="width: 350px").m-auto
@@ -129,21 +129,21 @@
             .tarjeta.color-adicional-1.p-3(x="71%" y="90%" numero="+")
               p.texto-blanco Un puerto Thunderbolt 3 transmite video, datos y energía en el mismo puerto y cable y es popular entre los ordenadores de Apple. El puerto tiene la misma forma que el puerto USB-C y es compatible con los dispositivos USB-C. Hasta seis periféricos (por ejemplo, monitores y discos duros externos conectados en cadena) pueden utilizar el mismo puerto Thunderbolt. 
             .tarjeta.color-adicional-1.p-3(x="92%" y="90%" numero="+")
-              p.texto-blanco Un sistema suele tener tres o más puertos de audio redondos, también llamados puertos de sonido, para un micrófono, una entrada de audio, una salida de audio y una salida de audio estéreo. Estos tipos de puertos de audio pueden transmitir datos analógicos o digitales. Si tienes un cable de audio para conectarlo a un altavoz o a unos auriculares, conéctalo al puerto de sonido verde lima, situado en el centro de los tres puertos. El micrófono utiliza el puerto rosa
+              p.texto-blanco Un sistema suele tener tres o más puertos de audio redondos, también llamados puertos de sonido, para un micrófono, una entrada de audio, una salida de audio y una salida de audio estéreo. Estos tipos de puertos de audio pueden transmitir datos analógicos o digitales. Si tienes un cable de audio para conectarlo a un altavoz o a unos auriculares, conéctalo al puerto de sonido verde lima, situado en el centro de los tres puertos. El micrófono utiliza el puerto rosa.
         .col-lg-10
           ImagenInfografica.color-acento-botones.mb-5.imagen-atras
             template(v-slot:imagen)
               figure
                 img(src='@/assets/curso/temas/tema1/img13-2.svg', alt='')
-            .tarjeta.color-adicional-1.p-3(x="8%" y="90%" numero="+")
+            .tarjeta.color-adicional-1.p-3(x="8%" y="93%" numero="+")
               p.texto-blanco Un puerto de sonido SPDIF (<i>Sony-Philips Digital Interface</i>) se conecta a un sistema de audio de cine en casa externo, proporcionando una salida de audio digital y la mejor calidad de señal. Los puertos SPDIF siempre transmiten audio digital y pueden funcionar con cable eléctrico u óptico. Cuando se conecta a un cable de fibra óptica, el puerto se denomina conector óptico.
-            .tarjeta.color-adicional-1.p-3(x="29%" y="90%" numero="+")
+            .tarjeta.color-adicional-1.p-3(x="29%" y="93%" numero="+")
               p.texto-blanco Un puerto USB (<i>Universal Serial Bus</i>) es un puerto de E/S multipropósito que viene en varios tamaños y es utilizado por muchos dispositivos diferentes, incluyendo impresoras, ratones, teclados, escáneres, discos duros externos y unidades flash en varios tamaños y es utilizado por muchos dispositivos diferentes, incluyendo impresoras, ratones, teclados, escáneres, discos duros externos y unidades flash. Algunos puertos USB son más rápidos que otros. El USB 2.0 de alta velocidad es más rápido que el USB normal, y el USB 3.0 de alta velocidad es más rápido que el USB 2.0.
-            .tarjeta.color-adicional-1.p-3(x="50%" y="90%" numero="+")
+            .tarjeta.color-adicional-1.p-3(x="50%" y="93%" numero="+")
               p.texto-blanco Un puerto HDMI (<i>High-Definition Multimedia Interface</i>) transmite video y audio digital (no transmisiones analógicas) y suele utilizarse para conectar equipos de cine en casa.
-            .tarjeta.color-adicional-1.p-3(x="71%" y="90%" numero="+")
+            .tarjeta.color-adicional-1.p-3(x="71%" y="93%" numero="+")
               p.texto-blanco Un puerto PS/2, también llamado puerto mini-DIN, es un puerto redondo de 6 pines utilizado por un teclado o un ratón. Los puertos se parecen, pero no son intercambiables. En un ordenador de sobremesa, el puerto morado es para el teclado y el verde para el ratón. Muchos ordenadores nuevos utilizan puertos USB para el teclado y el ratón en lugar de los antiguos puertos PS/2.
-            .tarjeta.color-adicional-1.p-3(x="92%" y="90%" numero="+")
+            .tarjeta.color-adicional-1.p-3(x="92%" y="93%" numero="+")
               p.texto-blanco Un puerto serie antiguo, a veces llamado puerto DB9, es un puerto macho de 9 pines utilizado en ordenadores antiguos. Ha sido sustituido en su mayoría por puertos USB. Ocasionalmente, se ve un puerto serie en un <i>router</i>, donde el puerto se utiliza para conectar el <i>router</i> a un dispositivo que un técnico puede utilizar para supervisar y gestionar el <i>router</i>.
         .col-lg-10
           ImagenInfografica.color-acento-botones.mb-5.imagen-atras
@@ -154,7 +154,7 @@
               p.texto-blanco Un puerto de red, también llamado puerto Ethernet o puerto RJ-45, es utilizado por un cable de red para conectarse a la red alámbrica. Los puertos Fast Ethernet funcionan a 100 Mbps (megabits por segundo), y Gigabit Ethernet funciona a 1000 Mbps o 1 Gbps (gigabits por segundo). Un megabit es un millón de bits y un gigabit es mil millones de bits. Un bit es un valor binario de 1 o 0.
             .tarjeta.color-adicional-1.p-3(x="50%" y="95%" numero="+")
               p.texto-blanco Un puerto de módem, también llamado puerto RJ-11, se utiliza para conectar líneas telefónicas de acceso telefónico a los ordenadores. Un puerto de módem se parece a un puerto de red, pero no es tan amplio. 
-            .tarjeta.color-adicional-1.p-3(x="71%" y="95%" numero="+")
+            .tarjeta.color-adicional-1.p-3(x="70.5%" y="95%" numero="+")
               p.texto-blanco Un puerto SATA externo (eSATA) es utilizado por un disco duro externo u otro dispositivo que utilice la interfaz eSATA.
     separador
     #t_1_2.titulo-segundo.color-acento-botones(data-aos="fade-right")
@@ -182,7 +182,7 @@
           .tarjeta.color-adicional-1.p-3(x="63%" y="102%" numero="+")
             p.texto-blanco Un sistema puede tener uno o más discos duros y una unidad óptica. Un disco duro, también llamado unidad de disco duro (HDD), es un almacenamiento permanente que se utiliza para guardar datos y programas. Por ejemplo, el sistema operativo Windows 10 y las aplicaciones se instalan en el disco duro. Todas las unidades de un sistema se instalan en una pila de bahías de unidades en la parte delantera de la caja. El disco duro más grande es una unidad magnética y el más pequeño es una unidad de estado sólido (SSD). Cada unidad tiene dos conexiones para cables: El cable de alimentación se conecta a la fuente de alimentación, y otro cable, utilizado para los datos y las instrucciones, se conecta a la placa base.
           .tarjeta.color-adicional-1.p-3(x="88%" y="102%" numero="+")
-            p.texto-blanco La fuente de alimentación del ordenador, también conocida como fuente de alimentación (PSU), es una caja instalada en una esquina de la caja del ordenador que recibe y convierte la corriente de la casa para que los componentes del interior de la caja puedan utilizarla. La mayoría de las fuentes de alimentación tienen un interruptor selector de voltaje Duval. En la parte posterior de la caja del ordenador, donde se puede cambiar el voltaje de entrada a la fuente de alimentación si es necesario-115 V se utiliza en los Estados Unidos y 220 V se utiliza en otros países.
+            p.texto-blanco La fuente de alimentación del ordenador, también conocida como fuente de alimentación (PSU), es una caja instalada en una esquina de la caja del ordenador que recibe y convierte la corriente de la casa para que los componentes del interior de la caja puedan utilizarla. La mayoría de las fuentes de alimentación tienen un interruptor selector de voltaje Duval. En la parte posterior de la caja del ordenador, donde se puede cambiar el voltaje de entrada a la fuente de alimentación si es necesario 115 V se utiliza en los Estados Unidos y 220 V se utiliza en otros países.
     separador
     #t_1_3.titulo-segundo.color-acento-botones(data-aos="fade-right")
        h2 1.3 Periféricos
@@ -194,8 +194,8 @@
         .bloque-texto-g__texto.p-4(data-aos="flip-down")
           p.mb-0 Un portátil está diseñado para ser transportable y puede ser tan potente como un ordenador de sobremesa. Más de la mitad de los computadores personales que se compran hoy en día son portátiles, y casi el 30% de los computadores personales que se utilizan actualmente son de esta categoría. Los portátiles utilizan la misma tecnología que los ordenadores de sobremesa, pero con modificaciones para consumir menos energía, ocupar menos espacio y funcionar en movimiento.
     p.mb-5(data-aos="fade-right") Los portátiles se presentan en distintas variedades, incluyendo algunos con una pantalla táctil que permite escribir a mano en ella con un lápiz óptico y otros con una pantalla giratoria o extraíble que permite utilizar el portátil como una tableta. Otra variante de un portátil es un notebook, que es más pequeño y menos caro que un portátil y tiene menos funciones. Un computador “todo en uno” tiene el monitor y la carcasa del ordenador juntos y utiliza componentes que son comunes a un portátil y a un ordenador de sobremesa. Dado que los ordenadores todo en uno utilizan muchos componentes de los portátiles y su mantenimiento es similar, se incluye en esta temática. La siguiente infografía presenta el panel de periféricos de un portátil.
-    .row.justify-content-center.align-items-center
-      .col-lg-6
+    .row.justify-content-center.align-items-start
+      .col-lg-6.mb-4.mb-lg-0
         .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
           .col-lg-auto
             figure
@@ -206,6 +206,8 @@
         .cajon.color-acento-botones.p-4(data-aos="flip-up")
           p.mb-0 En la imagen aparecen dos ranuras que se utilizan para las tarjetas de memoria flash: una ranura MagicGate y una ranura para tarjetas SD. Cada una de ellas puede admitir varios tipos de tarjetas de memoria flash. Cuando a un portátil le falta un puerto o una ranura que necesita, normalmente puede encontrar un dongle USB que le proporcione el puerto o la ranura.
       .col-10.col-lg-6
+        .titulo-sexto.color-acento-contenido.mb-3
+          p.mb-0 #[b Figura 1.] Periféricos de un portátil 
         figure
           img(src='@/assets/curso/temas/tema1/img17.png', alt='la imagen muestra los distintos ranuras de un computador portátil descritos en la parte inferior')
         .row.mb-5

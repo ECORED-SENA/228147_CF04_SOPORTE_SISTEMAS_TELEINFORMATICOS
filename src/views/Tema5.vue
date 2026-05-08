@@ -162,7 +162,7 @@
         p También se conoce como generador de impulsos o generador de funciones. Es una herramienta que permite simular diferentes tipos de señales que ayuden a comprobar el comportamiento de los circuitos electrónicos.
     .row.justify-content-center.align-items-center.mt-5.mb-4
       .cajon.cajon-tema6.p-4(data-aos="flip-up")
-        p.mb-0 El tipo de mediciones que se suelen realizar en los circuitos electrónicos son básicamente las de tensión continua y alterna. Además de éstas, es necesario realizar una serie de mediciones en términos de amplitud, frecuencia y fase, así como un análisis detallado de la forma de onda en las funciones complejas de los circuitos, con el fin de ayudar al procedimiento de resolución de problemas .
+        p.mb-0 El tipo de mediciones que se suelen realizar en los circuitos electrónicos son básicamente las de tensión continua y alterna. Además de éstas, es necesario realizar una serie de mediciones en términos de amplitud, frecuencia y fase, así como un análisis detallado de la forma de onda en las funciones complejas de los circuitos, con el fin de ayudar al procedimiento de resolución de problemas.
     .row.justify-content-center.align-items-center.mb-5
       figure(data-aos="fade-right")
         img(src='@/assets/curso/temas/tema5/img16.png', alt='Imágen decorativa')    
@@ -225,7 +225,7 @@
           .row(numero="8" titulo="Carga estática")
             .col-md-12.mb-4.mb-md-0
               p Los circuitos integrados de la familia lógica CMOS utilizados en algunos equipos pueden resultar dañados por una descarga incontrolada de electricidad estática. Antes de manipular cualquiera de las placas de circuito, sujete firmemente el chasis del equipo para eliminar cualquier diferencia de carga estática entre su cuerpo y el equipo.
-              p Manipule todas las placas de circuito por los bordes. Los circuitos CMOS operan con corrientes en el rango de los nano amperios y las vías de fuga causadas por los aceites de la piel, el polvo de la suciedad, etc. pueden causar un rendimiento inexacto del circuito en algunos equipos.
+              p Manipule todas las placas de circuito por los bordes. Los circuitos CMOS operan con corrientes en el rango de los nanoamperios y las vías de fuga causadas por los aceites de la piel, el polvo de la suciedad, etc., pueden causar un rendimiento inexacto del circuito en algunos equipos.
           .row(numero="9" titulo="Comprobación de asentamiento")
             .col-md-12.mb-4.mb-md-0
               p Después de retirar la cubierta del equipo, inspeccione todos los tornillos expuestos para comprobar su apriete. Compruebe que todas las placas de circuito impreso están firmemente asentadas en sus conectores o están en posición. Compruebe el estado de todos los cables externos, especialmente en busca de roturas o grietas y signos de torsión. Si se observa algún daño grave, el cable debe ser sustituido inmediatamente.
