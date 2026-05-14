@@ -226,54 +226,53 @@
           .bg-linea-tiempo.p-4
             .row.justify-content-center.align-items-center
               SlyderE(indicadores="centro")
-                .row
-                  .col-md-6.mb-4.mb-md-0
+                .row.m-1
+                  .col-lg-6.mb-4.mb-lg-0
                     h4.my-5 <b style= 'color:#5573C6;'>Red celular</b>
                     p Algunos computadores portátiles tienen la capacidad de conectarse a una red celular. Sin embargo, también existe un módem celular USB que puede utilizarse para un portátil que no tenga la tecnología incorporada (como aparece en la imagen).
-                  .col-md-6
+                  .col-lg-6
                     figure
                       img(src='@/assets/curso/temas/tema1/img18.png', alt='')
-                .row
-                  .col-md-6.mb-4.mb-md-0
+                .row.m-1
+                  .col-lg-6.mb-4.mb-lg-0
                     h4.my-5 <b style= 'color:#5573C6;'>Dispositivo <i>Bluetooth</i></b>
                     p Cuando un computador portátil no tiene capacidad para <i>Bluetooth</i>, se puede utilizar un adaptador de USB a <i>Bluetooth</i> para conectarse a un dispositivo inalámbrico <i>Bluetooth</i>, como una impresora o un smartphone <i>Bluetooth</i>. 
-                  .col-md-6
+                  .col-lg-6
                     figure
                       img(src='@/assets/curso/temas/tema1/img19.svg', alt='')
-                .row
-                  .col-md-6.mb-4.mb-md-0
+                .row.m-1
+                  .col-lg-6.mb-4.mb-lg-0
                     h4.my-5 <b style= 'color:#5573C6;'>Unidad óptica externa</b>
                     p Cuando un portátil o netbook no tiene unidad óptica, se puede utilizar una unidad óptica USB. Se conecta la unidad óptica USB en un puerto USB para poder utilizar CDs y DVDs con el portátil o netbook.
-                  .col-md-6
+                  .col-lg-6
                     figure
                       img(src='@/assets/curso/temas/tema1/img20.svg', alt='')
-                .row
-                  .col-md-6.mb-4.mb-md-0
+                .row.m-1
+                  .col-lg-6.mb-4.mb-lg-0
                     h4.my-5 <b style= 'color:#5573C6;'>Retroiluminación del teclado</b>
                     p Las teclas de función pueden utilizarse para controlar la retroiluminación del teclado e iluminarlo.
-                  .col-md-6
+                  .col-lg-6
                     figure
                       img(src='@/assets/curso/temas/tema1/img21.svg', alt='')
-                .row
-                  .col-md-6.mb-4.mb-md-0
+                .row.m-1
+                  .col-lg-6.mb-4.mb-lg-0
                     h4.my-5 <b style= 'color:#5573C6;'>Activación o desactivación del panel táctil</b>
                     p Otras teclas de función pueden activar o desactivar el panel táctil, que es el dispositivo señalador más común en un portátil. Algunas personas prefieren utilizar un ratón USB con cable o inalámbrico en lugar de un panel táctil.
-                  .col-md-6
+                  .col-lg-6
                     figure
                       img(src='@/assets/curso/temas/tema1/img22.svg', alt='')
-                .row
-                  .col-md-6.mb-4.mb-md-0
+                .row.m-1
+                  .col-lg-6.mb-4.mb-lg-0
                     h4.my-5 <b style= 'color:#5573C6;'>Brillo y orientación de la pantalla</b>
                     p Las teclas de función pueden controlar el brillo de la pantalla en muchos portátiles. El brillo de la pantalla también se puede controlar en la configuración de pantalla de Windows. Algunos portátiles permiten utilizar una tecla de función para cambiar la orientación de la pantalla a horizontal o vertical y así poder utilizar el portátil girado sobre su extremo.
-                  .col-md-6
+                  .col-lg-6
                     figure
                       img(src='@/assets/curso/temas/tema1/img23.svg', alt='')
-                .row
-                  .col-md-6.mb-4.mb-md-0
+                .row.m-1
+                  .col-lg-6.mb-4.mb-lg-0
                     h4.my-5 <b style= 'color:#5573C6;'>Doble pantalla</b>
                     p La mayoría de los portátiles utilizan una tecla de función para controlar las dos pantallas. Utilice las teclas de flecha para seleccionar sólo el panel LCD, duplicar o ampliar la salida al monitor externo o utilizar sólo el monitor externo. Las pantallas dobles también se pueden gestionar mediante la configuración de pantalla de Windows.
-                
-                  .col-md-6
+                  .col-lg-6
                     figure
                       img(src='@/assets/curso/temas/tema1/img24.svg', alt='')
 

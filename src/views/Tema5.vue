@@ -19,12 +19,12 @@
           template(v-slot:imagen)
             figure(data-aos="fade-right")
               img(src='@/assets/curso/temas/tema5/img2.svg', alt='')
-          .tarjeta.color-adicional-1.p-4(x="22.4%" y="15%" numero="+")
+          .tarjeta.color-adicional-1.p-4(x="22.4%" y="17%" numero="+")
             p.text-white Antes de emprender cualquier otra acción, es importante establecer la presencia de un fallo en un equipo. En algunos casos, se puede informar de que un sistema es defectuoso, pero puede tratarse de un funcionamiento defectuoso o se puede informar de un fallo del sistema con muy poca información o con información errónea. Es esencial que se realice una prueba de funcionamiento para comprobar el rendimiento real del sistema con respecto a su especificación, y que se anoten todos los síntomas de fallo.
             p.text-white.mb-0 También es importante comprobar con el operador del equipo el historial del mismo y los trabajos de reparación y mantenimiento realizados anteriormente por cualquier otra persona. A veces, un trabajo incompleto o un mal manejo del equipo por parte de un trabajador inexperto podría resultar desastroso y desafiar todos los esfuerzos por reparar el equipo.
-          .tarjeta.color-adicional-1.p-4(x="53%" y="18%" numero="+")
+          .tarjeta.color-adicional-1.p-4(x="53.5%" y="17%" numero="+")
             p.text-white.mb-0 El procedimiento comprenderá un estudio de la bibliografía relativa a la revisión, el mantenimiento y las reparaciones, y la localización de la causa de la avería, primero en un subsistema y, finalmente, en un único componente del subsistema.
-          .tarjeta.color-adicional-1.p-4(x="86%" y="18%" numero="+")
+          .tarjeta.color-adicional-1.p-4(x="86%" y="17%" numero="+")
             p.text-white.mb-0 Consiste en sustituir o reparar el componente defectuoso. Esto debe ir siempre seguido de una comprobación exhaustiva del funcionamiento de todo el sistema.
     separador
     #t_5_1.titulo-segundo.color-acento-botones(data-aos="fade-right")
